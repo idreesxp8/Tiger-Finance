@@ -251,3 +251,17 @@ li.nav-item {
   top: 0px;
   left: 0px;
 }
+
+.right_wrapper_tiger {
+  position: relative;
+  background-image: url("../images/img_rt.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.right_wrapper_tiger .left_comp {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
