@@ -119,7 +119,26 @@
     }
 }
 
+@media(max-width: 1400px) {
+.right_wrapper_tiger {
+    position: relative;
+    height: 600px;
+    margin-bottom: -125px;
+    z-index: 9;
+}
+}
 
+@media(max-width: 1200px) {
+
+
+    .right_wrapper_tiger {
+        position: relative;
+        height: 650px;
+        margin-bottom: -45px;
+        margin-top: 65px;
+    }
+
+ }
 
 @media(max-width: 767px) {
     .right_wrapper_tiger {
@@ -175,6 +194,10 @@
         left: -15px;
         bottom: -74px;
         width: 90px;
+    }
+    .tiger_list li {
+        font-size: 14px;
+        line-height: 26px;
     }
 }
 
