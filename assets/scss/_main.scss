@@ -1,0 +1,72 @@
+
+.main_head {
+    padding-top: 145px;
+    background-image: url('../images/bg_main.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.tiger_top_left {
+    h2 {
+        color: #FBA01F;
+        font-size: 90px;
+        line-height: 80px;
+        span {
+            color: #FFF;
+        }
+    }
+    h3 {
+        color: #FFFFFF;
+        font-size: 60px;
+        line-height: 80px;
+    }
+    p {
+        font-size: 28px;
+        color: #FFFFFF;
+        font-weight: 300;
+        line-height: 30px;
+    }
+}
+.tiger_list {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    li {
+        font-size: 18px;
+        line-height: 30px;
+        color: #FFF;
+        font-weight: 300;
+        width: 50%;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 18px;
+            height: 12px;
+            background-image: url('../images/tick.svg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+    }
+}
+.left_btn_wrapper {
+    display: flex;
+    a {
+        font-size: 18px;
+        color: #FFF;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        height: 50px;
+        width: 50%;
+
+        img {
+            width: 8px;
+            height: 14px;
+            object-fit: contain;
+        }
+    }
+}

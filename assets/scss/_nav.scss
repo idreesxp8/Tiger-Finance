@@ -1,0 +1,20 @@
+
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+li.nav-item {
+    display: flex;
+    align-items: center;
+}
+.navbar-brand img {
+    width: 210px;
+    height: 95px;
+    object-fit: contain;
+}
