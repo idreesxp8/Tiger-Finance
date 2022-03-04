@@ -166,6 +166,10 @@ li.nav-item {
   margin-left: 5px;
 }
 
+.login_img {
+  width: 25px;
+}
+
 .main_head {
   padding-top: 145px;
   background-image: url("../images/bg_main.jpg");
