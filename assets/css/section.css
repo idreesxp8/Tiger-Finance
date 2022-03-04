@@ -1,7 +1,7 @@
 .brands {
     width: 100%;
-    padding-top: 90px;
-    padding-bottom: 90px
+    padding-top: 40px;
+    padding-bottom: 60px;
 }
 
 .brands_slider_container {
@@ -50,9 +50,20 @@
 }
 
 .brands_prev {
-    left: 20px
+    left: 0px
 }
 
 .brands_next {
-    right: 20px
+    right: 0px
+}
+.main-heading {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    color: #621A4B;
+}
+.heading-separator {
+    height: 4px;
+    background: #FBA01F;
+    width: 135px;
 }

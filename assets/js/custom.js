@@ -8,12 +8,12 @@ $(document).ready(function(){
     {
     loop:true,
     autoplay:true,
-    autoplayTimeout:5000,
+    autoplayTimeout:4000,
     nav:false,
     dots:false,
     autoWidth:true,
     items:3,
-    margin:42
+    margin:60
     });
     
     if($('.brands_prev').length)
