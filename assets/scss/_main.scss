@@ -97,10 +97,6 @@
 }
 .right_wrapper_tiger {
     position: relative;
-    background-image: url("../images/img_rt.jpg");
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 650px;
     margin-bottom: -95px;
     z-index: 9;
@@ -123,4 +119,62 @@
     }
 }
 
+
+
+@media(max-width: 767px) {
+    .right_wrapper_tiger {
+        margin-bottom: 0px;
+        z-index: 9;
+        margin-top: 50px;
+    }
+    .tiger_top_left h2 {
+        font-size: 60px;
+        text-align: center;
+    }
+    .tiger_top_left h3 {
+        color: #FFFFFF;
+        font-size: 50px;
+        line-height: 50px;
+        text-align: center;
+    }
+    .tiger_top_left p {
+        font-size: 22px;
+        color: #FFFFFF;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .left_btn_wrapper a {
+        margin: 0 auto;
+    }
+    .left_btn_wrapper {
+        gap: 10px;
+    }
+    .right_wrapper_tiger .right_comp {
+        position: absolute;
+        top: -10px;
+        right: -15px;
+        width: 120px;
+    }
+    .right_wrapper_tiger .top_comp {
+        position: absolute;
+        top: -20px;
+        left: -20px;
+        width: 90px;
+        z-index: -1;
+    }
+    .right_wrapper_tiger {
+        margin-bottom: -90px;
+    }
+    .right_wrapper_tiger {
+        height: 100%;
+    }
+    .right_wrapper_tiger .left_comp {
+        position: absolute;
+        left: -15px;
+        bottom: -74px;
+        width: 90px;
+    }
+}
 
