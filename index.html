@@ -21,13 +21,15 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-xl bg-transparent py-2">
+        <nav class="navbar navbar-expand-xl bg-transparent py-2 d-none d-xl-block">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">  <img src="./assets/images/logo.svg" alt="" /></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon">
+                  <img src="./assets/images/burger-menu.svg" alt="" />
+                </span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -72,7 +74,71 @@
                 </ul>
               </div>
             </div>
-          </nav>
+        </nav>
+
+        <nav class="navbar navbar-expand-xl bg-transparent py-2 d-xl-none">
+          <div class="container-fluid">
+           
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+                <img src="./assets/images/burger-menu.svg" alt="" />
+              </span>
+            </button>
+            <a class="navbar-brand" href="#">  <img src="./assets/images/logo.svg" alt="" /></a>
+
+            <div class="contact_outter d-flex flex-column align-items-center">
+              <img class="mb-1" src="./assets/images/phone.svg" alt="" />
+              <a class="my-2" href="tel:1800950365 ">1800 950-365</a>
+              <p class="d-block">Toll Free Number</p>
+            </div>
+
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Car Loans</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Business Loans</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Self Employed Loans</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Private Loans</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Loan Options
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Helpful Information
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Login <img class="ms-2 login_img" src="./assets/images/login.svg"></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+      </nav>
     </header>
 
     <section class="main_head pb-5">
@@ -168,8 +234,63 @@
       </div>
     </section>
 
+
+    <section class="steps_section py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="main-heading text-white">4 Simple Steps To Getting Funding</h2>
+            <div class="heading-separator m-auto mt-3"></div>
+            <p class="text-white mt-4 w-50 m-auto text_para_steps">There’s no need to waste your time going through complicated application processes, getting piles of documents and waiting months to get your loan.</p>
+          </div>
+          <div class="col-12">
+            <div class="steps_outter_wrap d-flex justify-content-between mt-5">
+              <div class="steps_outter">
+                <span>1</span>
+                <div class="steps_form">
+                  <div class="steps_inner">
+                    <img src="./assets/images/1step.svg" alt="" />
+                  </div>
+                </div>
+                <p>Free Consultation</p>
+              </div>
+              <div class="steps_outter">
+                <span>2</span>
+                <div class="steps_form">
+                  <div class="steps_inner">
+                    <img src="./assets/images/2step.svg" alt="" />
+                  </div>
+                </div>
+                <p>We Tailor Make A Loan That Fits You</p>
+              </div>
+              <div class="steps_outter">
+                <span>3</span>
+                <div class="steps_form">
+                  <div class="steps_inner">
+                    <img src="./assets/images/3step.svg" alt="" />
+                  </div>
+                </div>
+                <p>We Negotiate With Credible Lenders</p>
+              </div>
+              <div class="steps_outter">
+                <span>4</span>
+                <div class="steps_form">
+                  <div class="steps_inner">
+                    <img src="./assets/images/4step.svg" alt="" />
+                  </div>
+                </div>
+                <p>Approved & Settled</p>
+              </div>
+            </div>
+           
+           
+
+          </div>
+        </div>
+      </div>
+    </section>
+
     <script src="./assets/js/jquery-3.6.0.min.js"></script>
-    <script src="./assets/js/bootstrap.js"></script>
     <script src="./assets/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/custom.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
