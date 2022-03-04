@@ -12,7 +12,7 @@ $(document).ready(function(){
     nav:false,
     dots:false,
     autoWidth:true,
-    items:8,
+    items:3,
     margin:42
     });
     
