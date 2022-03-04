@@ -6,16 +6,14 @@
 
 .brands_slider_container {
     height: 130px;
-    border: solid 1px #e8e8e8;
-    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
     padding-left: 97px;
     padding-right: 97px;
-    background: #fff
+    background: #fff;
+    position: relative;
 }
 
 .brands_slider {
     height: 100%;
-    margin-top: 50px
 }
 
 .brands_item {
@@ -52,9 +50,9 @@
 }
 
 .brands_prev {
-    left: 40px
+    left: 20px
 }
 
 .brands_next {
-    right: 40px
+    right: 20px
 }
