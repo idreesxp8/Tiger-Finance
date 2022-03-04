@@ -67,3 +67,41 @@
     background: #FBA01F;
     width: 135px;
 }
+.loans-term {
+    padding: 60px 0 100px 0;
+}
+.loans-term-content h2 {
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    color: #621A4B;
+    font-weight: bold;
+}
+.loans-lists ul {
+    list-style: none;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+.loans-lists ul li img {
+    margin-right: 10px;
+}
+.loans-lists ul li {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #621A4B;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 30px;
+}
+.loans-lists ul li::before {
+    content: "";
+    background-image: url("../images/tick.svg");
+    background-repeat: no-repeat;
+    background-size: 18px;
+    width: 23px;
+    height: 18px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
