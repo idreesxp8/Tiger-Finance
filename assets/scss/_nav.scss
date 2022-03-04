@@ -18,3 +18,34 @@ li.nav-item {
     height: 95px;
     object-fit: contain;
 }
+.nav-link {
+    font-size: 18px;
+    color: #FFF;
+    line-height: 72px;
+    font-weight: 400;
+    transition: 250ms all ease-in;
+
+    &:hover,  &:active, &:focus {
+        color: #FFF;
+        opacity: 0.75;
+    }
+}
+.dropdown-toggle {
+    position: relative;
+    padding-right: 15px !important;
+    padding-left: 10px;
+}
+.dropdown-toggle::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0px;
+    width: 12px;
+    height: 7px;
+    border: 0px;
+    background-image: url('../images/arrow_drp.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 5px;
+}
