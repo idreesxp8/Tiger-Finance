@@ -1,0 +1,47 @@
+.why_us_section {
+    background-image: url('../images/why_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.us_wrap {
+    img {
+        width: 100px;
+        height: 100px;
+        object-fit: contain;
+    }
+    h3 {
+        font-size: 24px;
+        color: #FFF;
+        line-height: 26px;
+        margin-bottom: 20px;
+    }
+    p {
+        font-family: 'Roboto';
+        font-size: 18px;
+        color: #FFF;
+        font-weight: 200;
+    }
+}
+.expert_outter {
+    background-image: url('../images/why.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.expert_img_wrapper {
+    width: 380px;
+    margin: 0 auto;
+    img {
+        width: 100%;
+        object-fit: contain;
+    }
+    .img_content {
+        background-color: #FFF;
+        border: 0.5px solid #621A4B;
+        border-top: 0;
+        span {
+            color: #383838;
+            font-size: 24px;
+            line-height: 26px;
+        }
+    }
+}
