@@ -713,4 +713,24 @@ li.nav-item {
   font-size: 18px !important;
   margin-bottom: 15px;
 }
+
+h2.custom-txt-purple {
+  color: #621a4b;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "roboto";
+}
+
+.client {
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 12px;
+}
+
+.client img {
+  width: 100%;
+  min-height: 75px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
 /*# sourceMappingURL=style.css.map */
