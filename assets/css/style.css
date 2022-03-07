@@ -937,6 +937,54 @@ h2.custom-txt-purple {
   color: #621a4b;
   font-size: 45px;
   font-weight: bold;
+  max-width: 40%;
+  margin: auto;
+}
+
+.have-a-question .accordion-item {
+  margin: 20px 0;
+  border: 1px solid #c7c7c7;
+  border-top: 1px solid #c7c7c7 !important;
+  border-radius: 5px;
+  padding: 1px;
+}
+
+.have-a-question .accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  color: #621a4b !important;
+  font-weight: bold !important;
+  font-family: "roboto" !important;
+}
+
+.have-a-question button.accordion-button.collapsed {
+  font-weight: bold;
+  font-family: "roboto";
+}
+
+.have-a-question .accordion-body p {
+  font-family: "roboto";
+  line-height: 25px;
+  font-weight: lighter;
+}
+
+.have-a-question .accordion-button::after {
+  -webkit-filter: grayscale(150%) contrast(65.5);
+          filter: grayscale(150%) contrast(65.5);
+}
+
+.have-a-question .custom-img-phone img {
+  padding: 5px;
+  border: 2px solid #006fff;
+  border-radius: 4px;
+  width: 28px;
+  height: 28px;
+}
+
+.have-a-question .custom-img-phone a {
+  text-decoration: none;
+  margin-left: 10px;
+  font-family: "roboto";
+  font-weight: bold;
 }
 
 .form-section {
