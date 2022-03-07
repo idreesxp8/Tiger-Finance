@@ -987,12 +987,13 @@ h2.custom-txt-purple {
   font-weight: bold;
 }
 
-.form-section {
-  background-color: #F4F2F3;
+section.form_section {
+  background-color: #f4f2f3;
 }
 
 .inner_left_form {
-  background-color: #621A4B;
+  background-color: #621a4b;
+  min-height: 420px;
 }
 
 .inner_left_form img {
@@ -1004,25 +1005,115 @@ h2.custom-txt-purple {
 }
 
 .form_left_info h4 {
-  color: #FFF;
+  color: #fff;
   font-size: 30px;
   font-weight: 700;
 }
 
 .form_left_info p {
   font-size: 18px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 300;
 }
 
 .time_open_tiger h3 {
   font-weight: 300;
   font-size: 18px;
-  color: #FFF;
+  color: #fff;
 }
 
 .time_open_tiger span {
   font-size: 18px;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 28px;
 }
+
+.inner_right_form {
+  max-height: 420px;
+}
+
+.inner_right_form .txt-form {
+  font-size: 25px;
+  color: #621a4b;
+  font-family: "roboto";
+  font-weight: bold;
+}
+
+.inner_right_form .form-control {
+  border: none;
+  border-bottom: 1px solid #383838;
+  border-radius: unset;
+}
+
+.inner_right_form textarea.form-control {
+  resize: none;
+  padding: 0;
+}
+
+.inner_right_form select.form-select {
+  border: none;
+  border-bottom: 1px solid #383838;
+  border-radius: unset;
+  padding: 12px 0;
+  color: #383838;
+  font-size: 15px;
+  font-family: "roboto";
+}
+
+.inner_right_form label.form-label {
+  color: #383838;
+}
+
+.inner_right_form textarea.form-control::-webkit-input-placeholder {
+  color: #383838;
+}
+
+.inner_right_form textarea.form-control:-ms-input-placeholder {
+  color: #383838;
+}
+
+.inner_right_form textarea.form-control::-ms-input-placeholder {
+  color: #383838;
+}
+
+.inner_right_form textarea.form-control::placeholder {
+  color: #383838;
+}
+
+.inner_right_form button.btn.btn-submit-form {
+  background: -webkit-gradient(linear, left top, right top, from(#fba01f), to(#f0726f));
+  background: linear-gradient(90deg, #fba01f 0%, #f0726f 100%);
+  color: #fff;
+  min-width: 175px;
+  min-height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  -webkit-transition: 250ms all ease-in;
+  transition: 250ms all ease-in;
+  position: relative;
+}
+
+.inner_right_form button.btn.btn-submit-form:hover {
+  opacity: 0.7;
+}
+
+.inner_right_form .btn-submit-form::after {
+  content: "";
+  background-image: url("../images/arrow_next.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 17px;
+  right: 25px;
+  width: 8px;
+  height: 15px;
+}
+/*# sourceMappingURL=style.css.map */

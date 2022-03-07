@@ -1,38 +1,108 @@
-.form-section {
-    background-color: #F4F2F3;
+section.form_section {
+  background-color: #f4f2f3;
 }
 .inner_left_form {
-    background-color: #621A4B;
-
-    img {
-        width: 280px;
-        height: 70px;
-        object-fit: contain;
-        margin: 0 auto;
-    }
+  background-color: #621a4b;
+  min-height: 420px;
+  img {
+    width: 280px;
+    height: 70px;
+    object-fit: contain;
+    margin: 0 auto;
+  }
 }
 .form_left_info {
-    h4 {
-        color: #FFF;
-        font-size: 30px;
-        font-weight: 700;
-    }
-    p {
-        font-size: 18px;
-        color: #FFFFFF;
-        font-weight: 300;
-    }
+  h4 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+  }
+  p {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+  }
 }
 
 .time_open_tiger {
-    h3 {
-        font-weight: 300;
-        font-size: 18px;
-        color: #FFF;
-    }
-    span {
-        font-size: 18px;
-        color: #FFFFFF;
-        line-height: 28px;
-    }
+  h3 {
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+  }
+  span {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 28px;
+  }
+}
+.inner_right_form {
+  max-height: 420px;
+  .txt-form {
+    font-size: 25px;
+    color: #621a4b;
+    font-family: "roboto";
+    font-weight: bold;
+  }
+
+  .form-control {
+    border: none;
+    border-bottom: 1px solid #383838;
+    border-radius: unset;
+  }
+
+  textarea.form-control {
+    resize: none;
+    padding: 0;
+  }
+
+  select.form-select {
+    border: none;
+    border-bottom: 1px solid #383838;
+    border-radius: unset;
+    padding: 12px 0;
+    color: #383838;
+    font-size: 15px;
+    font-family: "roboto";
+  }
+
+  label.form-label {
+    color: #383838;
+  }
+
+  textarea.form-control::placeholder {
+    color: #383838;
+  }
+
+  button.btn.btn-submit-form {
+    background: linear-gradient(
+      90deg,
+      rgba(251, 160, 31, 1) 0%,
+      rgba(240, 114, 111, 1) 100%
+    );
+    color: #fff;
+    min-width: 175px;
+    min-height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    transition: 250ms all ease-in;
+    position: relative;
+  }
+  button.btn.btn-submit-form:hover {
+    opacity: 0.7;
+  }
+
+  .btn-submit-form::after {
+    content: "";
+    background-image: url("../images/arrow_next.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 17px;
+    right: 25px;
+    width: 8px;
+    height: 15px;
+  }
 }
