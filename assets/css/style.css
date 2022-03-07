@@ -617,6 +617,18 @@ li.nav-item {
   line-height: 26px;
 }
 
+.content_right h2 {
+  font-size: 45px;
+  color: #621A4B;
+  line-height: 55px;
+}
+
+.content_right p {
+  font-size: 20px;
+  color: #383838;
+  line-height: 28px;
+}
+
 @media only screen and (max-width: 767px) {
   .loans-term-content h2 {
     font-size: 32px;
