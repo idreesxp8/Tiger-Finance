@@ -722,9 +722,9 @@ h2.custom-txt-purple {
 }
 
 .client {
-  padding: 15px;
-  border: 1px solid;
-  border-radius: 12px;
+  padding: 8px 20px;
+  border: 1px solid #621a4b;
+  border-radius: 5px;
 }
 
 .client img {
@@ -732,5 +732,11 @@ h2.custom-txt-purple {
   min-height: 75px;
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+.have-a-question .txt-question {
+  color: #621a4b;
+  font-size: 45px;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
