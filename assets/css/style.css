@@ -827,6 +827,20 @@ li.nav-item {
   color: #FFF;
 }
 
+.outter_signal_heading span {
+  color: #FBA01F;
+}
+
+.under_heading {
+  font-size: 35px;
+  color: #621A4B;
+}
+
+.para_blo_sep {
+  color: #383838;
+  font-size: 18px;
+}
+
 .free-guide {
   background-image: url(../images/bg_guide.png);
   background-repeat: no-repeat;
@@ -923,4 +937,44 @@ h2.custom-txt-purple {
   color: #621a4b;
   font-size: 45px;
   font-weight: bold;
+}
+
+.form-section {
+  background-color: #F4F2F3;
+}
+
+.inner_left_form {
+  background-color: #621A4B;
+}
+
+.inner_left_form img {
+  width: 280px;
+  height: 70px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin: 0 auto;
+}
+
+.form_left_info h4 {
+  color: #FFF;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.form_left_info p {
+  font-size: 18px;
+  color: #FFFFFF;
+  font-weight: 300;
+}
+
+.time_open_tiger h3 {
+  font-weight: 300;
+  font-size: 18px;
+  color: #FFF;
+}
+
+.time_open_tiger span {
+  font-size: 18px;
+  color: #FFFFFF;
+  line-height: 28px;
 }

@@ -1,0 +1,38 @@
+.form-section {
+    background-color: #F4F2F3;
+}
+.inner_left_form {
+    background-color: #621A4B;
+
+    img {
+        width: 280px;
+        height: 70px;
+        object-fit: contain;
+        margin: 0 auto;
+    }
+}
+.form_left_info {
+    h4 {
+        color: #FFF;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    p {
+        font-size: 18px;
+        color: #FFFFFF;
+        font-weight: 300;
+    }
+}
+
+.time_open_tiger {
+    h3 {
+        font-weight: 300;
+        font-size: 18px;
+        color: #FFF;
+    }
+    span {
+        font-size: 18px;
+        color: #FFFFFF;
+        line-height: 28px;
+    }
+}
