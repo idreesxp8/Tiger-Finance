@@ -1,9 +1,10 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
-@import '_reset';
-@import '_nav';
-@import '_main';
-@import '_steps'
+@import "_reset";
+@import "_nav";
+@import "_main";
+@import "_loan.scss";
+@import "_steps";

@@ -437,6 +437,19 @@ li.nav-item {
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .loans-term-content h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .loans-term-content .heading-separator {
+    margin: auto;
+  }
+  .loans-term-content .loans-lists ul li {
+    font-size: 15px;
+  }
+}
+
 .steps_section {
   background-color: #621A4B;
 }
@@ -542,3 +555,4 @@ li.nav-item {
     width: 75% !important;
   }
 }
+/*# sourceMappingURL=style.css.map */
