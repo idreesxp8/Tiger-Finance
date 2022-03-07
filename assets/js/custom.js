@@ -7,7 +7,9 @@ $('.owl-news').slick({
     slidesToShow: 3,
     dots: true,
     slidesToScroll: 3,
-    margin: '10px'
+    margin: '10px',
+    centerMode: true,
+    centerPadding: '0px'
 
   });
 

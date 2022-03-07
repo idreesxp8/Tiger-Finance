@@ -120,3 +120,18 @@
     justify-content: center;
     visibility: visible;
 }
+
+.slick-center {
+    .item_outter {
+        .content_wrapper {
+            background-color: #621A4B;
+            a {
+                color: #FFF;
+
+            }
+            p {
+                color: #FFF;
+            }
+        }
+    }
+}

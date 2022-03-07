@@ -815,6 +815,18 @@ li.nav-item {
   visibility: visible;
 }
 
+.slick-center .item_outter .content_wrapper {
+  background-color: #621A4B;
+}
+
+.slick-center .item_outter .content_wrapper a {
+  color: #FFF;
+}
+
+.slick-center .item_outter .content_wrapper p {
+  color: #FFF;
+}
+
 .free-guide {
   background-image: url(../images/bg_guide.png);
   background-repeat: no-repeat;
