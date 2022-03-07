@@ -50,3 +50,11 @@
     opacity: 0.7;
   }
 }
+@media only screen and (max-width: 767px) {
+  .txt-guide-heading {
+    font-size: 35px;
+  }
+  .line-height-custom {
+    text-align: left !important;
+  }
+}

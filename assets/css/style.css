@@ -562,15 +562,15 @@ li.nav-item {
 
 .us_wrap h3 {
   font-size: 24px;
-  color: #FFF;
+  color: #fff;
   line-height: 26px;
   margin-bottom: 20px;
 }
 
 .us_wrap p {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 18px;
-  color: #FFF;
+  color: #fff;
   font-weight: 200;
 }
 
@@ -592,8 +592,8 @@ li.nav-item {
 }
 
 .expert_img_wrapper .img_content {
-  background-color: #FFF;
-  border: 0.5px solid #621A4B;
+  background-color: #fff;
+  border: 0.5px solid #621a4b;
   border-top: 0;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
@@ -607,7 +607,7 @@ li.nav-item {
 }
 
 .expert_img_wrapper .img_content h4 {
-  color: #621A4B;
+  color: #621a4b;
   font-size: 20px;
   line-height: 28px;
   margin-bottom: 10px;
@@ -621,7 +621,7 @@ li.nav-item {
 
 .content_right h2 {
   font-size: 45px;
-  color: #621A4B;
+  color: #621a4b;
   line-height: 55px;
 }
 
@@ -629,6 +629,42 @@ li.nav-item {
   font-size: 20px;
   color: #383838;
   line-height: 28px;
+}
+
+.our_expert_mobile {
+  visibility: hidden;
+  position: absolute;
+}
+
+@media only screen and (max-width: 767px) {
+  .main-heading {
+    font-size: 30px !important;
+  }
+  .us_wrap h3 {
+    font-size: 21px;
+  }
+  .us_wrap p {
+    width: 100% !important;
+  }
+  section.our_expert {
+    visibility: hidden;
+    position: absolute;
+  }
+  .our_expert_mobile {
+    visibility: visible;
+    position: inherit;
+  }
+  .content_right h2 {
+    font-size: 35px;
+    color: #621a4b;
+    line-height: 55px;
+    text-align: center;
+  }
+  .content_right p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -895,6 +931,15 @@ li.nav-item {
   opacity: 0.7;
 }
 
+@media only screen and (max-width: 767px) {
+  .txt-guide-heading {
+    font-size: 35px;
+  }
+  .line-height-custom {
+    text-align: left !important;
+  }
+}
+
 .who_we_can_help .txt-help {
   color: #621a4b;
   font-size: 45px;
@@ -911,6 +956,15 @@ li.nav-item {
 .who_we_can_help .custom-listing li {
   font-size: 18px !important;
   margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 767px) {
+  .custom-col-iframe iframe {
+    width: 100%;
+  }
+  .custom-col-iframe {
+    display: block !important;
+  }
 }
 
 h2.custom-txt-purple {
