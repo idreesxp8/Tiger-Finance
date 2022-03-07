@@ -1043,6 +1043,7 @@ section.form_section {
   border: none;
   border-bottom: 1px solid #383838;
   border-radius: unset;
+  background-color: transparent;
 }
 
 .inner_right_form textarea.form-control {
@@ -1058,6 +1059,7 @@ section.form_section {
   color: #383838;
   font-size: 15px;
   font-family: "roboto";
+  background-color: #f8f9fa;
 }
 
 .inner_right_form label.form-label {
