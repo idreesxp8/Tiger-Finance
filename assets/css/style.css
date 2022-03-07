@@ -3,7 +3,6 @@
   padding: 0;
 }
 
-
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -525,4 +524,21 @@ li.nav-item {
   width: 75%;
   text-align: center;
   line-height: 20px;
+}
+
+@media (max-width: 767px) {
+  .steps_form::after {
+    width: 120px;
+  }
+  .steps_outter {
+    width: 50%;
+    margin-bottom: 45px;
+  }
+  .after_four::after, .after_two::after {
+    width: 0px;
+    height: 0px;
+  }
+  .text_para_steps {
+    width: 75% !important;
+  }
 }
