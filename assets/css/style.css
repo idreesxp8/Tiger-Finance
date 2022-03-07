@@ -598,3 +598,16 @@ li.nav-item {
   font-size: 24px;
   line-height: 26px;
 }
+
+@media only screen and (max-width: 767px) {
+  .loans-term-content h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  .loans-term-content .heading-separator {
+    margin: auto;
+  }
+  .loans-term-content .loans-lists ul li {
+    font-size: 15px;
+  }
+}
