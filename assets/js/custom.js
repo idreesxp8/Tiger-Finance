@@ -1,5 +1,18 @@
 $(document).ready(function(){
 
+
+   
+$('.owl-news').slick({
+    infinite: true,
+    slidesToShow: 3,
+    dots: true,
+    slidesToScroll: 3,
+    margin: '10px',
+    centerMode: true,
+    centerPadding: '0px'
+
+  });
+
     if($('.brands_slider').length)
     {
     var brandsSlider = $('.brands_slider');

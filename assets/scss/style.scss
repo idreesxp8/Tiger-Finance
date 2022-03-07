@@ -1,15 +1,20 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+}
+body, html {
+    overflow-x: hidden
 }
 
-@import "_reset";
-@import "_nav";
-@import "_main";
-@import "_steps";
-@import "_why-us";
+
+@import '_reset';
+@import '_nav';
+@import '_main';
+@import '_steps';
+@import '_why-us';
 @import "_loan";
+@import "_banner";
+@import "_newsSlider";
 @import "_guide";
 @import "_help";
 @import "_lending";
