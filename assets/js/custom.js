@@ -63,28 +63,30 @@ $(document).ready(function () {
     ],
   });
 
+ 
+
   if ($(".brands_slider").length) {
     var brandsSlider = $(".brands_slider");
 
     brandsSlider.owlCarousel({
       loop: true,
-      autoplay: true,
-      autoplayTimeout: 4000,
+      autoplay: false,
       nav: false,
       dots: false,
-      autoWidth: true,
+      autoWidth: false,
       items: 3,
-      margin: 60,
-      responsive: {
-        0: {
-          items: 1,
+      stagePadding: 60,
+      margin: 0,
+      responsive:{
+        0:{
+            items:1
         },
-        600: {
-          items: 3,
+        600:{
+            items:3
         },
-        1000: {
-          items: 5,
-        },
+        1000:{
+            items:5
+        }
       },
     });
 

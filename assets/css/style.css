@@ -776,6 +776,15 @@ li.nav-item {
   background-color: #f6f8fc;
 }
 
+.brands_slider_container .owl-carousel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .owl-news .slick-dots {
   list-style: none;
   display: -webkit-box;
@@ -951,6 +960,22 @@ li.nav-item {
 }
 
 @media (max-width: 767px) {
+  .brands_prev {
+    left: 30% !important;
+    bottom: -30px;
+    top: unset !important;
+    z-index: 99;
+  }
+  .brands_slider_container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .brands_next {
+    right: 30% !important;
+    bottom: -30px;
+    top: unset !important;
+    z-index: 99;
+  }
   .loans-term-content h2 {
     font-size: 32px !important;
     text-align: center;
