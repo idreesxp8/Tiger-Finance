@@ -105,7 +105,7 @@
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1200px) {
   .have-a-question {
     visibility: hidden;
     position: absolute;
@@ -114,5 +114,21 @@
   .have-a-question-mobile {
     visibility: visible;
     position: inherit;
+  }
+
+  .have-a-question-mobile .txt-question {
+    color: #621a4b;
+    font-size: 45px;
+    font-weight: bold;
+    max-width: 70%;
+    margin: auto;
+  }
+
+  .have-a-question-mobile img.img-fluid {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
