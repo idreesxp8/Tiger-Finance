@@ -79,6 +79,10 @@
 }
 
 @media only screen and (max-width: 767px) {
+  section.our_expert.py-5 {
+    visibility: hidden;
+    position: absolute;
+  }
   .main-heading {
     font-size: 30px !important;
   }
@@ -89,11 +93,6 @@
 
   .us_wrap p {
     width: 100% !important;
-  }
-
-  section.our_expert {
-    visibility: hidden;
-    position: absolute;
   }
 
   .our_expert_mobile {
@@ -112,5 +111,19 @@
     font-size: 20px;
     text-align: center;
     margin-bottom: 10px;
+  }
+
+  .expert_img_wrapper img {
+    width: 80% !important;
+    -o-object-fit: contain;
+    object-fit: contain;
+    margin: auto !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .expert_img_wrapper .img_content {
+    width: 80% !important;
+    margin: auto !important;
   }
 }

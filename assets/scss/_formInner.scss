@@ -113,6 +113,7 @@ section.form_section {
 @media only screen and (max-width: 1200px) {
   .inner_left_form {
     margin-bottom: 0 !important;
+    min-height: unset;
   }
 
   .inner_left_form img {
@@ -124,6 +125,7 @@ section.form_section {
   .inner_right_form {
     max-height: unset;
     margin: 0 !important;
+    padding: 50px 25px !important;
   }
 
   .form_left_info.text-center {
@@ -131,7 +133,29 @@ section.form_section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 55px;
+    margin-top: 20px;
+  }
+
+  .under_heading {
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .form_section .heading-separator {
+    display: none;
+  }
+
+  h3.under_heading {
+    font-size: 30px;
+    color: #621a4b;
+    font-weight: bold;
+    font-family: "roboto";
+    margin-top: 20px;
+  }
+
+  .para_blo_sep {
+    width: 100% !important;
   }
 }
 

@@ -12,6 +12,15 @@
     
     @media(max-width: 1200px) {
 
+        .tiger_top_left {
+            h2, h3, p {
+                text-align: center;
+            }
+            h2, h3 {
+                text-transform: uppercase;
+            }
+        }
+
         .lending_mob .client {
             margin: 15px;
         }
@@ -68,6 +77,11 @@
      }
     
     @media(max-width: 767px) {
+        .link_last_footer {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
         .navbar-brand img {
             width: 120px;
             height: 55px;
@@ -96,12 +110,14 @@
         .tiger_top_left h2 {
             font-size: 60px;
             text-align: center;
+            text-transform: uppercase;
         }
         .tiger_top_left h3 {
             color: #FFFFFF;
             font-size: 50px;
             line-height: 50px;
             text-align: center;
+            text-transform: uppercase;
         }
         .tiger_top_left p {
             font-size: 22px;
