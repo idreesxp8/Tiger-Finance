@@ -10,6 +10,7 @@
         color: #FBA01F;
         font-size: 90px;
         line-height: 80px;
+        font-family: 'Roboto', sans-serif;
         span {
             color: #FFF;
         }
@@ -18,12 +19,15 @@
         color: #FFFFFF;
         font-size: 60px;
         line-height: 80px;
+        font-family: 'Roboto', sans-serif;
     }
     p {
-        font-size: 28px;
+        font-size: 29px;
         color: #FFFFFF;
-        font-weight: 300;
-        line-height: 30px;
+        font-weight: 100;
+        line-height: 38px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
     }
 }
 .tiger_list {
@@ -31,12 +35,14 @@
     display: flex;
     flex-wrap: wrap;
     li {
-        font-size: 18px;
-        line-height: 30px;
-        color: #FFF;
-        font-weight: 300;
         width: 50%;
         position: relative;
+        margin-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 22px;
+        line-height: 30px;
+        color: #FFF;
+        font-weight: 100;
 
         &::before {
             content: "";
