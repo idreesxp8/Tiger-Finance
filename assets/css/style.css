@@ -183,24 +183,24 @@ li.nav-item {
 }
 
 .tiger_top_left h2 {
-  color: #FBA01F;
+  color: #fba01f;
   font-size: 90px;
   line-height: 80px;
 }
 
 .tiger_top_left h2 span {
-  color: #FFF;
+  color: #fff;
 }
 
 .tiger_top_left h3 {
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 60px;
   line-height: 80px;
 }
 
 .tiger_top_left p {
   font-size: 28px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 300;
   line-height: 30px;
 }
@@ -217,7 +217,7 @@ li.nav-item {
 .tiger_list li {
   font-size: 18px;
   line-height: 30px;
-  color: #FFF;
+  color: #fff;
   font-weight: 300;
   width: 50%;
   position: relative;
@@ -246,7 +246,7 @@ li.nav-item {
 
 .left_btn_wrapper a {
   font-size: 18px;
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -334,13 +334,30 @@ li.nav-item {
 
 .contact_outter a {
   font-size: 12px;
-  color: #FFF;
+  color: #fff;
   text-decoration: none;
 }
 
 .contact_outter p {
   font-size: 10px;
-  color: #FFF;
+  color: #fff;
+}
+
+@media only screen and (max-width: 767px) {
+  .left_btn_wrapper .consult_btn {
+    padding: 0 15px;
+    width: 100%;
+    font-size: 22px;
+  }
+  .left_btn_wrapper .apply_btn {
+    padding: 0 15px;
+    width: 100%;
+    font-size: 22px;
+  }
+  .banner_tiger_content h3 {
+    font-size: 35px !important;
+    text-align: center !important;
+  }
 }
 
 .steps_section {
@@ -539,6 +556,10 @@ li.nav-item {
 }
 
 @media only screen and (max-width: 767px) {
+  section.our_expert.py-5 {
+    visibility: hidden;
+    position: absolute;
+  }
   .main-heading {
     font-size: 30px !important;
   }
@@ -547,10 +568,6 @@ li.nav-item {
   }
   .us_wrap p {
     width: 100% !important;
-  }
-  section.our_expert {
-    visibility: hidden;
-    position: absolute;
   }
   .our_expert_mobile {
     visibility: visible;
@@ -566,6 +583,22 @@ li.nav-item {
     font-size: 20px;
     text-align: center;
     margin-bottom: 10px;
+  }
+  .expert_img_wrapper img {
+    width: 80% !important;
+    -o-object-fit: contain;
+    object-fit: contain;
+    margin: auto !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .expert_img_wrapper .img_content {
+    width: 80% !important;
+    margin: auto !important;
   }
 }
 
