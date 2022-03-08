@@ -961,6 +961,7 @@ li.nav-item {
   .main-heading {
     font-size: 30px !important;
     text-align: center;
+    font-weight: bold;
   }
   .brands .heading-separator {
     margin: auto;
@@ -1859,3 +1860,4 @@ button.btn.btn-banner {
 button.btn.btn-banner:hover {
   opacity: 0.7;
 }
+/*# sourceMappingURL=style.css.map */
