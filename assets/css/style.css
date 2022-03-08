@@ -1056,6 +1056,9 @@ footer {
   .lending_mob .client {
     margin: 15px;
   }
+  .have-a-question .txt-question {
+    max-width: 100%;
+  }
   .steps_outter {
     width: 50%;
     margin-top: 40px;
@@ -1355,4 +1358,3 @@ section.form_section {
   background-size: contain;
   background-repeat: no-repeat;
 }
-/*# sourceMappingURL=style.css.map */
