@@ -59,21 +59,6 @@
     color: #fff;
     text-decoration: none;
     display: flex;
-<<<<<<< Updated upstream
-    gap: 20px;
-    a {
-        font-size: 18px;
-        color: #FFF;
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        height: 50px;
-        width: 50%;
-        justify-content: center;
-        border-radius: 4px;
-        box-shadow: 0px 4px rgba(0,0,0, 0.11);
-        transition: 250ms all ease-in;
-=======
     align-items: center;
     height: 50px;
     width: 50%;
@@ -81,7 +66,6 @@
     border-radius: 4px;
     box-shadow: 0px 4px rgba(0, 0, 0, 0.11);
     transition: 250ms all ease-in;
->>>>>>> Stashed changes
 
     &:hover {
       opacity: 0.85;
@@ -173,8 +157,18 @@
     font-size: 22px;
   }
 
-  .banner_tiger_content h3 {
-    font-size: 35px !important;
+  .tiger_top_left h3 {
+    color: #ffffff;
+    font-size: 40px !important;
+    line-height: 50px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .tiger_top_left h2 {
+    font-size: 50px !important;
     text-align: center !important;
+    line-height: 54px !important;
+    text-transform: uppercase;
   }
 }

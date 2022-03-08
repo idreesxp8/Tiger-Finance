@@ -52,9 +52,24 @@
 }
 @media only screen and (max-width: 767px) {
   .txt-guide-heading {
-    font-size: 35px;
+    font-size: 35px !important;
   }
   .line-height-custom {
     text-align: left !important;
+  }
+
+  .form-control-custom {
+    width: 80% !important;
+  }
+
+  .loans-lists ul li {
+    margin-bottom: 20px !important;
+  }
+  .main-heading {
+    font-size: 30px !important;
+    text-align: center;
+  }
+  .brands .heading-separator {
+    margin: auto;
   }
 }
