@@ -3,4 +3,28 @@
   background-image: url(../images/banner.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  .tiger_center li::before {
+    content: "";
+    visibility: hidden;
+    position: absolute;
+  }
+
+  p.list_style_mid {
+    display: flex;
+    justify-content: start;
+    margin-left: 20%;
+  }
+
+  .list_style_mid::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 12px;
+    background-image: url(../images/tick.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 }

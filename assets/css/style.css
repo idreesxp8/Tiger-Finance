@@ -1325,3 +1325,34 @@ section.form_section {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.main_head_banner .tiger_center li::before {
+  content: "";
+  visibility: hidden;
+  position: absolute;
+}
+
+.main_head_banner p.list_style_mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-left: 20%;
+}
+
+.main_head_banner .list_style_mid::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 18px;
+  height: 12px;
+  background-image: url(../images/tick.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/*# sourceMappingURL=style.css.map */
