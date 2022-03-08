@@ -9,19 +9,16 @@
     color: #fba01f;
     font-size: 80px;
     line-height: 80px;
-    font-family: 'Roboto';
-    text-transform: uppercase;
+    font-family: "Roboto";
     span {
       color: #fff;
     }
   }
   h3 {
     color: #ffffff;
-    font-size: 57px;
-    line-height: 57px;
-    font-family: 'Roboto';
-    text-transform: uppercase;
-    margin-bottom: 10px;
+    font-size: 60px;
+    line-height: 80px;
+    font-family: "Roboto";
   }
   p {
     font-size: 30px;
@@ -44,7 +41,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 
     &::before {
       content: "";
@@ -122,11 +119,12 @@
     position: absolute;
     left: -65px;
     bottom: 0px;
+    width: 30%;
   }
   .top_comp {
     position: absolute;
-    top: -30px;
-    left: -30px;
+    top: -86px;
+    left: -80px;
     z-index: -1;
   }
   .right_comp {
