@@ -36,6 +36,8 @@
     font-weight: 300;
     width: 50%;
     position: relative;
+    display: flex;
+    align-items: center;
 
     &::before {
       content: "";
@@ -59,21 +61,6 @@
     color: #fff;
     text-decoration: none;
     display: flex;
-<<<<<<< Updated upstream
-    gap: 20px;
-    a {
-        font-size: 18px;
-        color: #FFF;
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-        height: 50px;
-        width: 50%;
-        justify-content: center;
-        border-radius: 4px;
-        box-shadow: 0px 4px rgba(0,0,0, 0.11);
-        transition: 250ms all ease-in;
-=======
     align-items: center;
     height: 50px;
     width: 50%;
@@ -81,7 +68,6 @@
     border-radius: 4px;
     box-shadow: 0px 4px rgba(0, 0, 0, 0.11);
     transition: 250ms all ease-in;
->>>>>>> Stashed changes
 
     &:hover {
       opacity: 0.85;

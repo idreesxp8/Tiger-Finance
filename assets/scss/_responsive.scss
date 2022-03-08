@@ -16,6 +16,9 @@
             h2, h3, p {
                 text-align: center;
             }
+            h2, h3 {
+                text-transform: uppercase;
+            }
         }
 
         .lending_mob .client {
@@ -107,12 +110,14 @@
         .tiger_top_left h2 {
             font-size: 60px;
             text-align: center;
+            text-transform: uppercase;
         }
         .tiger_top_left h3 {
             color: #FFFFFF;
             font-size: 50px;
             line-height: 50px;
             text-align: center;
+            text-transform: uppercase;
         }
         .tiger_top_left p {
             font-size: 22px;

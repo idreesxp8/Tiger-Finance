@@ -121,8 +121,10 @@
     visibility: visible;
 }
 
-.slick-center {
-    .item_outter {
+.item_outter {
+    transition: 450ms all ease-in;
+}
+    .item_outter:hover {
         .content_wrapper {
             background-color: #621A4B;
             a {
@@ -134,7 +136,7 @@
             }
         }
     }
-}
+
 
 .outter_signal_heading {
     span {

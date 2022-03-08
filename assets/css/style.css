@@ -221,6 +221,12 @@ li.nav-item {
   font-weight: 300;
   width: 50%;
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .tiger_list li::before {
@@ -241,7 +247,7 @@ li.nav-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 
 .left_btn_wrapper a {
@@ -786,15 +792,20 @@ li.nav-item {
   visibility: visible;
 }
 
-.slick-center .item_outter .content_wrapper {
+.item_outter {
+  -webkit-transition: 450ms all ease-in;
+  transition: 450ms all ease-in;
+}
+
+.item_outter:hover .content_wrapper {
   background-color: #621A4B;
 }
 
-.slick-center .item_outter .content_wrapper a {
+.item_outter:hover .content_wrapper a {
   color: #FFF;
 }
 
-.slick-center .item_outter .content_wrapper p {
+.item_outter:hover .content_wrapper p {
   color: #FFF;
 }
 
@@ -1180,6 +1191,9 @@ footer {
   .tiger_top_left h2, .tiger_top_left h3, .tiger_top_left p {
     text-align: center;
   }
+  .tiger_top_left h2, .tiger_top_left h3 {
+    text-transform: uppercase;
+  }
   .lending_mob .client {
     margin: 15px;
   }
@@ -1273,12 +1287,14 @@ footer {
   .tiger_top_left h2 {
     font-size: 60px;
     text-align: center;
+    text-transform: uppercase;
   }
   .tiger_top_left h3 {
     color: #FFFFFF;
     font-size: 50px;
     line-height: 50px;
     text-align: center;
+    text-transform: uppercase;
   }
   .tiger_top_left p {
     font-size: 22px;
