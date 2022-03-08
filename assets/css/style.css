@@ -946,6 +946,7 @@ h2.custom-txt-purple {
 .have-a-question-mobile {
   visibility: hidden;
   position: absolute;
+  left: -999999px;
 }
 
 .have-a-question-mobile .txt-question {

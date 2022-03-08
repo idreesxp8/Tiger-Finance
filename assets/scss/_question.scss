@@ -53,6 +53,7 @@
 .have-a-question-mobile {
   visibility: hidden;
   position: absolute;
+  left: -999999px;
   .txt-question {
     color: #621a4b;
     font-size: 45px;
