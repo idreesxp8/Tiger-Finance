@@ -943,6 +943,76 @@ h2.custom-txt-purple {
   font-weight: bold;
 }
 
+.have-a-question-mobile {
+  visibility: hidden;
+  position: absolute;
+}
+
+.have-a-question-mobile .txt-question {
+  color: #621a4b;
+  font-size: 45px;
+  font-weight: bold;
+  max-width: 40%;
+  margin: auto;
+}
+
+.have-a-question-mobile .accordion-item {
+  margin: 20px 0;
+  border: 1px solid #c7c7c7;
+  border-top: 1px solid #c7c7c7 !important;
+  border-radius: 5px;
+  padding: 1px;
+}
+
+.have-a-question-mobile .accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  color: #621a4b !important;
+  font-weight: bold !important;
+  font-family: "roboto" !important;
+}
+
+.have-a-question-mobile button.accordion-button.collapsed {
+  font-weight: bold;
+  font-family: "roboto";
+}
+
+.have-a-question-mobile .accordion-body p {
+  font-family: "roboto";
+  line-height: 25px;
+  font-weight: lighter;
+}
+
+.have-a-question-mobile .accordion-button::after {
+  -webkit-filter: grayscale(150%) contrast(65.5);
+          filter: grayscale(150%) contrast(65.5);
+}
+
+.have-a-question-mobile .custom-img-phone img {
+  padding: 5px;
+  border: 2px solid #006fff;
+  border-radius: 4px;
+  width: 28px;
+  height: 28px;
+}
+
+.have-a-question-mobile .custom-img-phone a {
+  text-decoration: none;
+  margin-left: 10px;
+  font-family: "roboto";
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 767px) {
+  .have-a-question {
+    visibility: hidden;
+    position: absolute;
+  }
+  .have-a-question-mobile {
+    visibility: visible;
+    position: inherit;
+  }
+}
+
 footer {
   background-color: #621A4B;
 }
@@ -1342,7 +1412,7 @@ section.form_section {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
-  margin-left: 20%;
+  padding-left: 35px;
 }
 
 .main_head_banner .list_style_mid::before {
@@ -1357,4 +1427,55 @@ section.form_section {
   background-image: url(../images/tick.svg);
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.txt-form-banner {
+  font-size: 35px;
+  padding: 15px 0;
+  color: #621a4b;
+}
+
+.form_callback_banner form {
+  background-color: #fff;
+  min-height: 600px;
+  padding: 20px;
+  z-index: 9999999;
+  position: absolute;
+  left: 0;
+  right: 0;
+  -webkit-box-shadow: 0px 15px 27px 0px rgba(0, 0, 0, 0.32);
+          box-shadow: 0px 15px 27px 0px rgba(0, 0, 0, 0.32);
+}
+
+.form_callback_banner .form-control {
+  padding: 15px;
+  border-color: #621a4b;
+}
+
+button.btn.btn-banner {
+  background: -webkit-gradient(linear, left top, right top, from(#fba01f), to(#f0726f));
+  background: linear-gradient(90deg, #fba01f 0%, #f0726f 100%);
+  min-width: 285px;
+  height: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+  color: #fff;
+  font-size: 18px;
+  font-family: "roboto";
+  font-weight: bold;
+  -webkit-transition: 250ms all ease-in;
+  transition: 250ms all ease-in;
+  margin-top: 40px;
+}
+
+button.btn.btn-banner:hover {
+  opacity: 0.7;
 }
