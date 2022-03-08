@@ -1,21 +1,35 @@
 .banner_tiger_content {
-    background-color: #621A4B;
+  background-color: #621a4b;
 
-    h3 {
-        font-size: 45px;
-        color: #FFFFFF;
-        line-height: 45px;
-    }
+  h3 {
+    font-size: 45px;
+    color: #ffffff;
+    line-height: 45px;
+  }
 
-    p {
-        font-size: 20px;
-        color: #FFF;
-        font-weight: 300;
-    }
+  p {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+  }
 }
 .banner_section {
-    height: 320px;
+  height: 320px;
 }
 .img_wrap_left {
-    height: 320px;
+  height: 320px;
+}
+
+@media only screen and (max-width: 767px) {
+  .banner_tiger_content h3 {
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .banner_tiger_content p {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 30px;
+  }
 }

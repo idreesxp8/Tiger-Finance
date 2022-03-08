@@ -588,6 +588,12 @@ li.nav-item {
     visibility: visible;
     position: inherit;
   }
+  .expert_outter {
+    background-image: url(../images/why.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
   .content_right h2 {
     font-size: 35px;
     color: #621a4b;
@@ -615,6 +621,32 @@ li.nav-item {
     width: 80% !important;
     margin: auto !important;
   }
+  .img_content span {
+    color: #383838 !important;
+    font-size: 25px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .expert_img_wrapper .img_content h4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 20px;
+  }
+  .left_btn_wrapper {
+    width: 80%;
+    margin: auto;
+  }
+  .bottom_sec {
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -631,18 +663,18 @@ li.nav-item {
 }
 
 .banner_tiger_content {
-  background-color: #621A4B;
+  background-color: #621a4b;
 }
 
 .banner_tiger_content h3 {
   font-size: 45px;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 45px;
 }
 
 .banner_tiger_content p {
   font-size: 20px;
-  color: #FFF;
+  color: #fff;
   font-weight: 300;
 }
 
@@ -652,6 +684,19 @@ li.nav-item {
 
 .img_wrap_left {
   height: 320px;
+}
+
+@media only screen and (max-width: 767px) {
+  .banner_tiger_content h3 {
+    text-align: center;
+    font-size: 35px;
+  }
+  .banner_tiger_content p {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 30px;
+  }
 }
 
 .news_section {
@@ -1108,6 +1153,16 @@ h2.custom-txt-purple {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  h3.txt-question {
+    font-size: 35px !important;
+    max-width: 100% !important;
+  }
+  .have-a-question-mobile img.img-fluid {
+    width: 85%;
   }
 }
 
