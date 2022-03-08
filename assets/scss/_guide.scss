@@ -19,6 +19,17 @@
   .line-height-custom {
     line-height: 33px;
     font-size: 20px;
+    strong {
+      a {
+        color: #FFF;
+        text-decoration: none;
+        transition: 250ms all ease-in;
+
+        &:hover {
+          opacity: 0.85;
+        }
+      }
+    }
     span.text-highlight-free {
       color: #fba01f;
     }
