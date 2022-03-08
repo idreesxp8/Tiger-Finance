@@ -1424,6 +1424,7 @@ section.form_section {
 @media only screen and (max-width: 1200px) {
   .inner_left_form {
     margin-bottom: 0 !important;
+    min-height: unset;
   }
   .inner_left_form img {
     visibility: hidden;
@@ -1433,6 +1434,7 @@ section.form_section {
   .inner_right_form {
     max-height: unset;
     margin: 0 !important;
+    padding: 50px 25px !important;
   }
   .form_left_info.text-center {
     display: -webkit-box;
@@ -1448,7 +1450,10 @@ section.form_section {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-top: 55px;
+    margin-top: 20px;
+  }
+  .under_heading {
+    font-size: 25px;
   }
 }
 
@@ -1539,3 +1544,4 @@ button.btn.btn-banner {
 button.btn.btn-banner:hover {
   opacity: 0.7;
 }
+/*# sourceMappingURL=style.css.map */
