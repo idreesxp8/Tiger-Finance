@@ -1181,6 +1181,14 @@ footer {
 }
 
 @media (max-width: 767px) {
+  .link_last_footer {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 10px;
+  }
   .navbar-brand img {
     width: 120px;
     height: 55px;

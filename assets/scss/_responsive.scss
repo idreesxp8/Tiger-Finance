@@ -68,6 +68,11 @@
      }
     
     @media(max-width: 767px) {
+        .link_last_footer {
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+        }
         .navbar-brand img {
             width: 120px;
             height: 55px;
