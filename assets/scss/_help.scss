@@ -24,4 +24,35 @@
   .custom-col-iframe {
     display: block !important;
   }
+
+  h2.txt-help {
+    text-align: center;
+}
+  .who_we_can_help .heading-separator {
+  height: 4px;
+  background: #FBA01F;
+  width: 135px;
+  margin: auto;
+  }
+
+  .loans-lists ul {
+    list-style: none;
+    columns: 1 !important;
+    -webkit-columns: 1;
+    -moz-columns: 2;
+}
+
+  .who_we_can_help .custom-listing li {
+    font-size: 22px !important;
+  }
+
+  .who_we_can_help .txt-help {
+    font-size: 40px;
+}
+
+  .who_we_can_help .text-paragraph {
+    font-size: 20px;
+    line-height: 30px;
+    color: #383838;
+  }
 }

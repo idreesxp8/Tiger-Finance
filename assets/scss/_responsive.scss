@@ -108,6 +108,13 @@
      }
     
     @media(max-width: 767px) {
+        .steps_outter {
+            margin-bottom: 0px;
+            justify-content: flex-start;
+        }
+        .brands {
+            padding-top: 30px !important;
+        }
         .link_last_footer {
             flex-wrap: wrap;
             justify-content: center;

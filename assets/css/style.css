@@ -184,9 +184,9 @@ li.nav-item {
 
 .tiger_top_left h2 {
   color: #fba01f;
-  font-size: 90px;
+  font-size: 80px;
   line-height: 80px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .tiger_top_left h2 span {
@@ -197,14 +197,15 @@ li.nav-item {
   color: #ffffff;
   font-size: 60px;
   line-height: 80px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .tiger_top_left p {
-  font-size: 28px;
+  font-size: 30px;
   color: #ffffff;
   font-weight: 300;
   line-height: 30px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .tiger_list {
@@ -229,7 +230,7 @@ li.nav-item {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .tiger_list li::before {
@@ -317,12 +318,13 @@ li.nav-item {
   position: absolute;
   left: -65px;
   bottom: 0px;
+  width: 30%;
 }
 
 .right_wrapper_tiger .top_comp {
   position: absolute;
-  top: -30px;
-  left: -30px;
+  top: -86px;
+  left: -80px;
   z-index: -1;
 }
 
@@ -578,6 +580,11 @@ li.nav-item {
     visibility: hidden;
     position: absolute;
   }
+  .our_expert_mobile {
+    visibility: hidden;
+    position: absolute;
+    padding: 10px 0 !important;
+  }
   .main-heading {
     font-size: 30px !important;
   }
@@ -586,6 +593,7 @@ li.nav-item {
   }
   .us_wrap p {
     width: 100% !important;
+    line-height: 24px;
   }
   .our_expert_mobile {
     visibility: visible;
@@ -914,6 +922,10 @@ li.nav-item {
     font-size: 15px;
     text-align: left;
   }
+  h2.custom-txt-purple {
+    color: #621a4b;
+    font-size: 35px !important;
+  }
 }
 
 .free-guide {
@@ -977,6 +989,10 @@ li.nav-item {
   .line-height-custom {
     text-align: left !important;
   }
+  .line-height-custom {
+    line-height: 27px;
+    font-size: 20px;
+  }
   .form-control-custom {
     width: 80% !important;
   }
@@ -990,6 +1006,10 @@ li.nav-item {
   }
   .brands .heading-separator {
     margin: auto;
+  }
+  .txt-guide-heading {
+    font-size: 40px !important;
+    line-height: 44px;
   }
 }
 
@@ -1018,6 +1038,32 @@ li.nav-item {
   .custom-col-iframe {
     display: block !important;
   }
+  h2.txt-help {
+    text-align: center;
+  }
+  .who_we_can_help .heading-separator {
+    height: 4px;
+    background: #FBA01F;
+    width: 135px;
+    margin: auto;
+  }
+  .loans-lists ul {
+    list-style: none;
+    columns: 1 !important;
+    -webkit-columns: 1;
+    -moz-columns: 2;
+  }
+  .who_we_can_help .custom-listing li {
+    font-size: 22px !important;
+  }
+  .who_we_can_help .txt-help {
+    font-size: 40px;
+  }
+  .who_we_can_help .text-paragraph {
+    font-size: 20px;
+    line-height: 30px;
+    color: #383838;
+  }
 }
 
 h2.custom-txt-purple {
@@ -1025,12 +1071,6 @@ h2.custom-txt-purple {
   font-size: 40px;
   font-weight: bold;
   font-family: "roboto";
-}
-
-.client {
-  padding: 8px 20px;
-  border: 1px solid #621a4b;
-  border-radius: 5px;
 }
 
 .client img {
@@ -1401,6 +1441,15 @@ footer {
 }
 
 @media (max-width: 767px) {
+  .steps_outter {
+    margin-bottom: 0px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .brands {
+    padding-top: 30px !important;
+  }
   .link_last_footer {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -1623,6 +1672,14 @@ section.form_section {
   height: 15px;
 }
 
+.main_head .banner-paragraph {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main_head form .form-outline input {
+  text-transform: capitalize;
+}
+
 @media only screen and (max-width: 1200px) {
   .inner_left_form {
     margin-bottom: 0 !important;
@@ -1675,9 +1732,66 @@ section.form_section {
   }
 }
 
-@media screen and (max-width: 767px) and (min-width: 280px) {
+@media screen and (max-width: 1180px) and (min-width: 768px) {
   .main_head {
     padding-top: 160px;
+  }
+  .main_head .w-75 {
+    width: 94% !important;
+  }
+  .main_head h2 {
+    font-size: 87px;
+    line-height: 87px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .main_head h3 {
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: bold;
+  }
+  .main_head .tiger_top_left .banner-paragraph {
+    width: 94%;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+  }
+  .main_head .tiger_list li {
+    text-align: left;
+    padding-left: 24px;
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .main_head .left_btn_wrapper a {
+    width: 44%;
+    margin-bottom: 10px;
+  }
+  .main_head .left_btn_wrapper {
+    margin-top: 20px;
+  }
+  .main_head .right_wrapper_tiger {
+    margin-top: 10px;
+  }
+  .main_head .left_btn_wrapper {
+    gap: 10px;
+  }
+  .main_head .txt-form-banner {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .main_head form .position-relative .btn-banner {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .main_head form {
+    padding: 20px 80px !important;
+    min-height: 550px !important;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 280px) {
+  .main_head {
+    padding-top: 100px;
   }
   .main_head .w-75 {
     width: 100% !important;
@@ -1698,21 +1812,32 @@ section.form_section {
     font-size: 24px;
     line-height: 24px;
     margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
   }
-  .main_head .tiger_list li p {
+  .main_head .tiger_list li {
     text-align: left;
-    padding-left: 24px;
     font-size: 23px;
+    margin-bottom: 10px !important;
     line-height: 23px;
   }
   .main_head .tiger_top_left .tiger_list li.ps-4 {
-    padding-left: 0 !important;
     width: 100%;
     margin-bottom: 0;
   }
   .main_head .left_btn_wrapper a {
     width: 100%;
     margin-bottom: 10px;
+  }
+  .main_head .right_wrapper_tiger {
+    margin-top: 10px;
+  }
+  .main_head .txt-form-banner {
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .main_head form .position-relative .btn-banner {
+    width: 100%;
+    margin-top: 20px;
   }
 }
 
@@ -1829,7 +1954,7 @@ section.form_section {
 
 @media screen and (max-width: 767px) and (min-width: 280px) {
   .main_head_banner {
-    padding-top: 160px;
+    padding-top: 100px;
   }
   .main_head_banner .w-75 {
     width: 100% !important;

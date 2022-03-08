@@ -83,6 +83,12 @@
     visibility: hidden;
     position: absolute;
   }
+
+  .our_expert_mobile {
+    visibility: hidden;
+    position: absolute;
+    padding: 10px 0 !important;
+}
   .main-heading {
     font-size: 30px !important;
   }
@@ -92,7 +98,8 @@
   }
 
   .us_wrap p {
-    width: 100% !important;
+      width: 100% !important;
+      line-height: 24px;
   }
 
   .our_expert_mobile {

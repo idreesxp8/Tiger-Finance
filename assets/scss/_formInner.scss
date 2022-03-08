@@ -110,6 +110,13 @@ section.form_section {
   
 }
 
+.main_head .banner-paragraph {
+  font-family: 'Montserrat', sans-serif;
+}
+.main_head form .form-outline input {
+  text-transform: capitalize;
+}
+
 @media only screen and (max-width: 1200px) {
   .inner_left_form {
     margin-bottom: 0 !important;
@@ -159,9 +166,67 @@ section.form_section {
   }
 }
 
-@media screen and (max-width: 767px) and (min-width: 280px) {
+
+@media screen and (max-width: 1180px) and (min-width: 768px) {
   .main_head {
       padding-top: 160px;
+  }
+  .main_head .w-75 {
+      width: 94% !important;
+  }
+  .main_head h2 {
+      font-size: 87px;
+      line-height: 87px;
+      font-weight: bold;
+      margin-bottom: 10px;
+  }
+  .main_head h3 {
+      font-size: 80px;
+      line-height: 80px;
+      font-weight: bold;
+  }
+  .main_head .tiger_top_left .banner-paragraph {
+      width: 94%;
+      font-size: 30px;
+      line-height: 30px;
+      margin-top: 10px;
+  }
+  .main_head .tiger_list li {
+      text-align: left;
+      padding-left: 24px;
+      font-size: 23px;
+      line-height: 23px;
+  }
+  .main_head .left_btn_wrapper a {
+      width: 44%;
+      margin-bottom: 10px;
+  }  
+  .main_head .left_btn_wrapper{
+    margin-top: 20px;
+  }
+  .main_head .right_wrapper_tiger {
+      margin-top: 10px;
+  }
+  .main_head .left_btn_wrapper {
+      gap: 10px;
+  }
+  .main_head .txt-form-banner{
+    font-size: 35px;
+    line-height: 35px;
+  }
+  .main_head form .position-relative .btn-banner {
+      width: 100%;
+      margin-top: 20px;
+  }
+  .main_head form {
+      padding: 20px 80px !important;
+      min-height: 550px !important;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 280px) {
+  .main_head {
+      padding-top: 100px;
   }
   .main_head .w-75 {
       width: 100% !important;
@@ -182,20 +247,31 @@ section.form_section {
       font-size: 24px;
       line-height: 24px;
       margin-top: 10px;
+      font-family: 'Montserrat', sans-serif;
   }
-  .main_head .tiger_list li p {
+  .main_head .tiger_list li {
       text-align: left;
-      padding-left: 24px;
       font-size: 23px;
+      margin-bottom: 10px !important;
       line-height: 23px;
   }
   .main_head .tiger_top_left .tiger_list li.ps-4 {
-      padding-left: 0 !important;
       width: 100%;
       margin-bottom: 0;
   }
   .main_head .left_btn_wrapper a {
       width: 100%;
       margin-bottom: 10px;
+  }
+  .main_head .right_wrapper_tiger {
+      margin-top: 10px;
+  }
+  .main_head .txt-form-banner{
+    font-size: 25px;
+    line-height: 25px;
+  }
+  .main_head form .position-relative .btn-banner {
+      width: 100%;
+      margin-top: 20px;
   }
 }

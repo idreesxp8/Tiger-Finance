@@ -7,9 +7,9 @@
 .tiger_top_left {
   h2 {
     color: #fba01f;
-    font-size: 90px;
+    font-size: 80px;
     line-height: 80px;
-    font-family: 'Roboto';
+    font-family: "Roboto";
     span {
       color: #fff;
     }
@@ -18,13 +18,14 @@
     color: #ffffff;
     font-size: 60px;
     line-height: 80px;
-    font-family: 'Roboto';
+    font-family: "Roboto";
   }
   p {
-    font-size: 28px;
+    font-size: 30px;
     color: #ffffff;
     font-weight: 300;
     line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
   }
 }
 .tiger_list {
@@ -40,7 +41,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
 
     &::before {
       content: "";
@@ -118,11 +119,12 @@
     position: absolute;
     left: -65px;
     bottom: 0px;
+    width: 30%;
   }
   .top_comp {
     position: absolute;
-    top: -30px;
-    left: -30px;
+    top: -86px;
+    left: -80px;
     z-index: -1;
   }
   .right_comp {
@@ -150,6 +152,7 @@
 }
 
 @media only screen and (max-width: 767px) {
+    
   .left_btn_wrapper .consult_btn {
     padding: 0 15px;
     width: 100%;
