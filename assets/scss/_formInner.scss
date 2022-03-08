@@ -107,6 +107,7 @@ section.form_section {
     width: 8px;
     height: 15px;
   }
+  
 }
 
 @media only screen and (max-width: 1200px) {
@@ -155,5 +156,46 @@ section.form_section {
 
   .para_blo_sep {
     width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 280px) {
+  .main_head {
+      padding-top: 160px;
+  }
+  .main_head .w-75 {
+      width: 100% !important;
+  }
+  .main_head h2 {
+      font-size: 50px;
+      line-height: 50px;
+      font-weight: bold;
+      margin-bottom: 10px;
+  }
+  .main_head h3 {
+      font-size: 47px;
+      line-height: 47px;
+      font-weight: bold;
+  }
+  .main_head .tiger_top_left .banner-paragraph {
+      width: 100%;
+      font-size: 24px;
+      line-height: 24px;
+      margin-top: 10px;
+  }
+  .main_head .tiger_list li p {
+      text-align: left;
+      padding-left: 24px;
+      font-size: 23px;
+      line-height: 23px;
+  }
+  .main_head .tiger_top_left .tiger_list li.ps-4 {
+      padding-left: 0 !important;
+      width: 100%;
+      margin-bottom: 0;
+  }
+  .main_head .left_btn_wrapper a {
+      width: 100%;
+      margin-bottom: 10px;
   }
 }

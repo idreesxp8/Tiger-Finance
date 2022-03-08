@@ -186,6 +186,7 @@ li.nav-item {
   color: #fba01f;
   font-size: 90px;
   line-height: 80px;
+  font-family: 'Roboto';
 }
 
 .tiger_top_left h2 span {
@@ -196,6 +197,7 @@ li.nav-item {
   color: #ffffff;
   font-size: 60px;
   line-height: 80px;
+  font-family: 'Roboto';
 }
 
 .tiger_top_left p {
@@ -227,6 +229,7 @@ li.nav-item {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .tiger_list li::before {
@@ -1613,6 +1616,47 @@ section.form_section {
   }
 }
 
+@media screen and (max-width: 767px) and (min-width: 280px) {
+  .main_head {
+    padding-top: 160px;
+  }
+  .main_head .w-75 {
+    width: 100% !important;
+  }
+  .main_head h2 {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .main_head h3 {
+    font-size: 47px;
+    line-height: 47px;
+    font-weight: bold;
+  }
+  .main_head .tiger_top_left .banner-paragraph {
+    width: 100%;
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 10px;
+  }
+  .main_head .tiger_list li p {
+    text-align: left;
+    padding-left: 24px;
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .main_head .tiger_top_left .tiger_list li.ps-4 {
+    padding-left: 0 !important;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .main_head .left_btn_wrapper a {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
 .main_head_banner {
   padding-top: 145px;
   background-image: url(../images/banner.svg);
@@ -1648,6 +1692,121 @@ section.form_section {
   background-image: url(../images/tick.svg);
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.main_head_banner .tiger_top_left .banner-paragraph {
+  font-size: 34px;
+  color: #FFFFFF;
+  font-weight: 100;
+  line-height: 38px;
+  font-family: 'Montserrat', sans-serif;
+  width: 55%;
+  margin: auto;
+  text-align: center;
+}
+
+.main_head_banner .tiger_list li {
+  width: 50%;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.main_head_banner .tiger_list li p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  color: #FFF;
+  font-weight: 100;
+}
+
+.main_head_banner .left_btn_wrapper {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main_head_banner .left_btn_wrapper a {
+  width: 33%;
+}
+
+@media screen and (max-width: 1180px) and (min-width: 768px) {
+  .main_head_banner {
+    padding-top: 160px;
+  }
+  .main_head_banner .w-75 {
+    width: 94% !important;
+  }
+  .main_head_banner h2 {
+    font-size: 87px;
+    line-height: 87px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .main_head_banner h3 {
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: bold;
+  }
+  .main_head_banner .tiger_top_left .banner-paragraph {
+    width: 94%;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+  }
+  .main_head_banner .tiger_list li p {
+    text-align: left;
+    padding-left: 24px;
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .main_head_banner .tiger_top_left .tiger_list li.ps-4 {
+    padding-left: 0 !important;
+  }
+  .main_head_banner .left_btn_wrapper a {
+    width: 44%;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 280px) {
+  .main_head_banner {
+    padding-top: 160px;
+  }
+  .main_head_banner .w-75 {
+    width: 100% !important;
+  }
+  .main_head_banner h2 {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .main_head_banner h3 {
+    font-size: 47px;
+    line-height: 47px;
+    font-weight: bold;
+  }
+  .main_head_banner .tiger_top_left .banner-paragraph {
+    width: 100%;
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 10px;
+  }
+  .main_head_banner .tiger_list li p {
+    text-align: left;
+    padding-left: 24px;
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .main_head_banner .tiger_top_left .tiger_list li.ps-4 {
+    padding-left: 0 !important;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .main_head_banner .left_btn_wrapper a {
+    width: 100%;
+    margin-bottom: 10px;
+  }
 }
 
 .txt-form-banner {
@@ -1700,4 +1859,3 @@ button.btn.btn-banner {
 button.btn.btn-banner:hover {
   opacity: 0.7;
 }
-/*# sourceMappingURL=style.css.map */
