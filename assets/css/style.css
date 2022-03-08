@@ -1339,7 +1339,7 @@ section.form_section {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
-  margin-left: 20%;
+  padding-left: 35px;
 }
 
 .main_head_banner .list_style_mid::before {
