@@ -241,7 +241,7 @@ li.nav-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 30px;
+  gap: 20px;
 }
 
 .left_btn_wrapper a {
@@ -1144,6 +1144,9 @@ footer {
 }
 
 @media (max-width: 1200px) {
+  .tiger_top_left h2, .tiger_top_left h3, .tiger_top_left p {
+    text-align: center;
+  }
   .lending_mob .client {
     margin: 15px;
   }
@@ -1544,4 +1547,3 @@ button.btn.btn-banner {
 button.btn.btn-banner:hover {
   opacity: 0.7;
 }
-/*# sourceMappingURL=style.css.map */

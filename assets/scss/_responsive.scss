@@ -12,6 +12,12 @@
     
     @media(max-width: 1200px) {
 
+        .tiger_top_left {
+            h2, h3, p {
+                text-align: center;
+            }
+        }
+
         .lending_mob .client {
             margin: 15px;
         }
