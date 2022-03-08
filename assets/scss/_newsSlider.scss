@@ -119,16 +119,17 @@
   visibility: visible;
 }
 
-.slick-center {
-  .item_outter {
-    .content_wrapper {
-      background-color: #621a4b;
-      a {
-        color: #fff;
-      }
-      p {
-        color: #fff;
-      }
+.item_outter {
+  transition: 450ms all ease-in;
+}
+.item_outter:hover {
+  .content_wrapper {
+    background-color: #621a4b;
+    a {
+      color: #fff;
+    }
+    p {
+      color: #fff;
     }
   }
 }
