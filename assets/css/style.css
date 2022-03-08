@@ -3,7 +3,8 @@
   padding: 0;
 }
 
-body, html {
+body,
+html {
   overflow-x: hidden;
 }
 
@@ -1173,102 +1174,10 @@ section.form_section {
   height: 15px;
 }
 
-footer {
-  background-color: #621A4B;
+.main_head_banner {
+  padding-top: 145px;
+  background-image: url(../images/banner.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-
-.vision_footer img {
-  width: 148px;
-  height: 58px;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
-.vision_footer h4 {
-  font-size: 18px;
-  color: #FFF;
-}
-
-.vision_footer p {
-  color: #A5A9BA;
-  font-size: 16px;
-  line-height: 22px;
-}
-
-.links_footer h4 {
-  font-size: 20px;
-  line-height: 20px;
-  color: #FFF;
-}
-
-.links_inner {
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.links_inner li a {
-  color: #A5A9BA;
-  text-decoration: none;
-  text-transform: capitalize;
-  -webkit-transition: 250ms all ease-in;
-  transition: 250ms all ease-in;
-  margin: 8px 0px;
-  display: block;
-}
-
-.links_inner li a:hover {
-  color: #FFF;
-}
-
-.footer_inner {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
-}
-
-.copy_right_footer {
-  color: #A5A9BA;
-  text-decoration: none;
-  -webkit-transition: 250ms all ease-in;
-  transition: 250ms all ease-in;
-}
-
-.copy_right_footer:hover {
-  color: #FFF;
-}
-
-.link_last_footer {
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-.link_last_footer li {
-  margin: 0px 10px;
-}
-
-.link_last_footer li a {
-  color: #A5A9BA;
-  text-decoration: none;
-  text-transform: uppercase;
-  -webkit-transition: 250ms all ease-in;
-  transition: 250ms all ease-in;
-}
-
-.link_last_footer li a:hover {
-  color: #FFF;
-}
-
-.disclaimer_footer {
-  font-size: 12px;
-  color: #FFF;
-  line-height: 14px;
-}
+/*# sourceMappingURL=style.css.map */

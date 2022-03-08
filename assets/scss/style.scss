@@ -2,16 +2,16 @@
   margin: 0;
   padding: 0;
 }
-body, html {
-    overflow-x: hidden
+body,
+html {
+  overflow-x: hidden;
 }
 
-
-@import '_reset';
-@import '_nav';
-@import '_main';
-@import '_steps';
-@import '_why-us';
+@import "_reset";
+@import "_nav";
+@import "_main";
+@import "_steps";
+@import "_why-us";
 @import "_loan";
 @import "_banner";
 @import "_newsSlider";
@@ -19,6 +19,5 @@ body, html {
 @import "_help";
 @import "_lending";
 @import "_question";
-@import '_formInner';
-@import '_footer';
-
+@import "_formInner";
+@import "_banner_2";
