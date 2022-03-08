@@ -1003,7 +1003,7 @@ h2.custom-txt-purple {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1200px) {
   .have-a-question {
     visibility: hidden;
     position: absolute;
@@ -1011,6 +1011,26 @@ h2.custom-txt-purple {
   .have-a-question-mobile {
     visibility: visible;
     position: inherit;
+  }
+  .have-a-question-mobile .txt-question {
+    color: #621a4b;
+    font-size: 45px;
+    font-weight: bold;
+    max-width: 70%;
+    margin: auto;
+  }
+  .have-a-question-mobile img.img-fluid {
+    width: 80%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 
@@ -1391,6 +1411,37 @@ section.form_section {
   right: 25px;
   width: 8px;
   height: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .inner_left_form {
+    margin-bottom: 0 !important;
+  }
+  .inner_left_form img {
+    visibility: hidden;
+    position: absolute;
+    left: -99999;
+  }
+  .inner_right_form {
+    max-height: unset;
+    margin: 0 !important;
+  }
+  .form_left_info.text-center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 55px;
+  }
 }
 
 .main_head_banner {
