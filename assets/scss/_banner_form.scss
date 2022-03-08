@@ -1,0 +1,43 @@
+.txt-form-banner {
+  font-size: 35px;
+  padding: 15px 0;
+  color: #621a4b;
+}
+
+.form_callback_banner form {
+  background-color: #fff;
+  min-height: 600px;
+  padding: 20px;
+  z-index: 9999999;
+  position: absolute;
+  left: 0;
+  right: 0;
+  box-shadow: 0px 15px 27px 0px rgba(0, 0, 0, 0.32);
+}
+.form_callback_banner .form-control {
+  padding: 15px;
+  border-color: #621a4b;
+}
+button.btn.btn-banner {
+  background: linear-gradient(
+    90deg,
+    rgba(251, 160, 31, 1) 0%,
+    rgba(240, 114, 111, 1) 100%
+  );
+  min-width: 285px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  color: #fff;
+  font-size: 18px;
+  font-family: "roboto";
+  font-weight: bold;
+  transition: 250ms all ease-in;
+  margin-top: 40px;
+}
+
+button.btn.btn-banner:hover {
+  opacity: 0.7;
+}
