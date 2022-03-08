@@ -1,6 +1,13 @@
 $(document).ready(function(){
 
-
+  $('.lending_mob').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    centerMode: true,
+    centerPadding: '180px'
+  });
+        
    
 $('.owl-news').slick({
     infinite: true,
