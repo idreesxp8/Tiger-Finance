@@ -182,6 +182,11 @@ li.nav-item {
   background-repeat: no-repeat;
 }
 
+.form-control:focus, .form-select:focus {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
 .tiger_top_left h2 {
   color: #fba01f;
   font-size: 80px;
@@ -1345,6 +1350,22 @@ footer {
 }
 
 @media (max-width: 1200px) {
+  .brands_prev {
+    left: 30% !important;
+    bottom: -30px;
+    top: unset !important;
+    z-index: 99;
+  }
+  .brands_slider_container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .brands_next {
+    right: 30% !important;
+    bottom: -30px;
+    top: unset !important;
+    z-index: 99;
+  }
   .navbar {
     z-index: 99;
   }

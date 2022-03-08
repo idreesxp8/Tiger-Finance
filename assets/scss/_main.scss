@@ -4,6 +4,9 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.form-control:focus, .form-select:focus {
+    box-shadow: none !important;
+}
 .tiger_top_left {
   h2 {
     color: #fba01f;
