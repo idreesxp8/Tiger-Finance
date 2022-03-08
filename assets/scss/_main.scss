@@ -7,24 +7,28 @@
 .tiger_top_left {
   h2 {
     color: #fba01f;
-    font-size: 90px;
+    font-size: 80px;
     line-height: 80px;
     font-family: 'Roboto';
+    text-transform: uppercase;
     span {
       color: #fff;
     }
   }
   h3 {
     color: #ffffff;
-    font-size: 60px;
-    line-height: 80px;
+    font-size: 57px;
+    line-height: 57px;
     font-family: 'Roboto';
+    text-transform: uppercase;
+    margin-bottom: 10px;
   }
   p {
-    font-size: 28px;
+    font-size: 30px;
     color: #ffffff;
     font-weight: 300;
     line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
   }
 }
 .tiger_list {
@@ -150,6 +154,7 @@
 }
 
 @media only screen and (max-width: 767px) {
+    
   .left_btn_wrapper .consult_btn {
     padding: 0 15px;
     width: 100%;

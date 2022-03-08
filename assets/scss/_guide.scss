@@ -58,6 +58,11 @@
     text-align: left !important;
   }
 
+  .line-height-custom {
+    line-height: 27px;
+    font-size: 20px;
+  }
+
   .form-control-custom {
     width: 80% !important;
   }
@@ -72,5 +77,10 @@
   }
   .brands .heading-separator {
     margin: auto;
+  }
+
+  .txt-guide-heading {
+    font-size: 40px !important;
+    line-height: 44px;
   }
 }

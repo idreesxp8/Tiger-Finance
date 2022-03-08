@@ -184,9 +184,10 @@ li.nav-item {
 
 .tiger_top_left h2 {
   color: #fba01f;
-  font-size: 90px;
+  font-size: 80px;
   line-height: 80px;
   font-family: 'Roboto';
+  text-transform: uppercase;
 }
 
 .tiger_top_left h2 span {
@@ -195,16 +196,19 @@ li.nav-item {
 
 .tiger_top_left h3 {
   color: #ffffff;
-  font-size: 60px;
-  line-height: 80px;
+  font-size: 57px;
+  line-height: 57px;
   font-family: 'Roboto';
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .tiger_top_left p {
-  font-size: 28px;
+  font-size: 30px;
   color: #ffffff;
   font-weight: 300;
   line-height: 30px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .tiger_list {
@@ -578,6 +582,11 @@ li.nav-item {
     visibility: hidden;
     position: absolute;
   }
+  .our_expert_mobile {
+    visibility: hidden;
+    position: absolute;
+    padding: 10px 0 !important;
+  }
   .main-heading {
     font-size: 30px !important;
   }
@@ -586,6 +595,7 @@ li.nav-item {
   }
   .us_wrap p {
     width: 100% !important;
+    line-height: 24px;
   }
   .our_expert_mobile {
     visibility: visible;
@@ -889,6 +899,10 @@ li.nav-item {
     font-size: 15px;
     text-align: left;
   }
+  h2.custom-txt-purple {
+    color: #621a4b;
+    font-size: 35px !important;
+  }
 }
 
 .free-guide {
@@ -952,6 +966,10 @@ li.nav-item {
   .line-height-custom {
     text-align: left !important;
   }
+  .line-height-custom {
+    line-height: 27px;
+    font-size: 20px;
+  }
   .form-control-custom {
     width: 80% !important;
   }
@@ -965,6 +983,10 @@ li.nav-item {
   }
   .brands .heading-separator {
     margin: auto;
+  }
+  .txt-guide-heading {
+    font-size: 40px !important;
+    line-height: 44px;
   }
 }
 
@@ -992,6 +1014,32 @@ li.nav-item {
   }
   .custom-col-iframe {
     display: block !important;
+  }
+  h2.txt-help {
+    text-align: center;
+  }
+  .who_we_can_help .heading-separator {
+    height: 4px;
+    background: #FBA01F;
+    width: 135px;
+    margin: auto;
+  }
+  .loans-lists ul {
+    list-style: none;
+    columns: 1 !important;
+    -webkit-columns: 1;
+    -moz-columns: 2;
+  }
+  .who_we_can_help .custom-listing li {
+    font-size: 22px !important;
+  }
+  .who_we_can_help .txt-help {
+    font-size: 40px;
+  }
+  .who_we_can_help .text-paragraph {
+    font-size: 20px;
+    line-height: 30px;
+    color: #383838;
   }
 }
 
@@ -1343,6 +1391,15 @@ footer {
 }
 
 @media (max-width: 767px) {
+  .steps_outter {
+    margin-bottom: 0px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .brands {
+    padding-top: 30px !important;
+  }
   .link_last_footer {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -1936,4 +1993,3 @@ button.btn.btn-banner {
 button.btn.btn-banner:hover {
   opacity: 0.7;
 }
-/*# sourceMappingURL=style.css.map */
