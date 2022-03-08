@@ -186,7 +186,7 @@ li.nav-item {
   color: #fba01f;
   font-size: 90px;
   line-height: 80px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .tiger_top_left h2 span {
@@ -197,7 +197,7 @@ li.nav-item {
   color: #ffffff;
   font-size: 60px;
   line-height: 80px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
 }
 
 .tiger_top_left p {
@@ -229,7 +229,7 @@ li.nav-item {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .tiger_list li::before {
@@ -317,12 +317,13 @@ li.nav-item {
   position: absolute;
   left: -65px;
   bottom: 0px;
+  width: 30%;
 }
 
 .right_wrapper_tiger .top_comp {
   position: absolute;
-  top: -30px;
-  left: -30px;
+  top: -86px;
+  left: -80px;
   z-index: -1;
 }
 
@@ -1000,12 +1001,6 @@ h2.custom-txt-purple {
   font-size: 40px;
   font-weight: bold;
   font-family: "roboto";
-}
-
-.client {
-  padding: 8px 20px;
-  border: 1px solid #621a4b;
-  border-radius: 5px;
 }
 
 .client img {
