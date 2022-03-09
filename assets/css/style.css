@@ -1527,6 +1527,9 @@ footer {
     font-size: 55px;
     line-height: 65px;
   }
+  .right_wrapper_tiger {
+    margin-top: 70px !important;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -2475,4 +2478,3 @@ button.btn.btn-banner:hover {
   left: -30px;
   z-index: -1;
 }
-/*# sourceMappingURL=style.css.map */
