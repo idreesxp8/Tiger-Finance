@@ -1,4 +1,19 @@
 $(document).ready(function () {
+
+
+  $(window).scroll(function() 
+  {
+   if ($(this).scrollTop() > 200)
+   {
+     console.log("sticky");
+    $('header').addClass("sticky_header");
+   }
+   else
+   {
+    $('header').removeClass("sticky_header");
+   }
+  });
+
   $(".lending_mob").slick({
     infinite: true,
     slidesToShow: 1,
