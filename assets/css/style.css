@@ -185,6 +185,10 @@ li.nav-item {
   width: 25px;
 }
 
+.roboto {
+  font-family: 'Roboto';
+}
+
 .main_head {
   padding-top: 145px;
   background-image: url("../images/bg_main.jpg");
@@ -247,7 +251,7 @@ li.nav-item {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .tiger_list li::before {
@@ -269,6 +273,7 @@ li.nav-item {
   display: -ms-flexbox;
   display: flex;
   gap: 30px;
+  font-family: 'Roboto';
 }
 
 .left_btn_wrapper a {
@@ -326,7 +331,7 @@ li.nav-item {
 
 .right_wrapper_tiger {
   position: relative;
-  height: 650px;
+  height: 100%;
   margin-bottom: -125px;
   z-index: 9;
 }
@@ -334,7 +339,7 @@ li.nav-item {
 .right_wrapper_tiger .left_comp {
   position: absolute;
   left: -65px;
-  bottom: 0px;
+  bottom: -130px;
   width: 30%;
 }
 
@@ -474,6 +479,8 @@ li.nav-item {
 
 .text_para_steps {
   font-weight: 100;
+  line-height: 28px;
+  font-family: 'Montserrat';
 }
 
 .steps_outter p {
@@ -484,6 +491,7 @@ li.nav-item {
   width: 75%;
   text-align: center;
   line-height: 20px;
+  font-family: 'Roboto';
 }
 
 @media (max-width: 767px) {
@@ -521,6 +529,8 @@ li.nav-item {
   color: #fff;
   line-height: 26px;
   margin-bottom: 20px;
+  font-family: 'Roboto';
+  font-weight: 700;
 }
 
 .us_wrap p {
@@ -528,6 +538,7 @@ li.nav-item {
   font-size: 18px;
   color: #fff;
   font-weight: 200;
+  line-height: 25px;
 }
 
 .expert_outter {
@@ -567,31 +578,34 @@ li.nav-item {
   font-size: 20px;
   line-height: 28px;
   margin-bottom: 10px;
+  font-weight: 600;
+  font-family: 'Roboto';
 }
 
 .expert_img_wrapper .img_content p {
   color: #383838;
   font-size: 20px;
   line-height: 26px;
+  font-weight: 400;
+  font-family: 'Roboto';
 }
 
 .content_right h2 {
-  font-size: 45px;
+  font-size: 55px;
   color: #621a4b;
-  line-height: 55px;
+  line-height: 65px;
+  font-family: 'Roboto';
 }
 
 .content_right p {
   font-size: 20px;
   color: #383838;
   line-height: 28px;
+  font-family: 'Roboto';
+  font-weight: 400;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
-  section.our_expert.py-5 {
-    visibility: hidden;
-    position: absolute;
-  }
   .our_expert_mobile {
     visibility: visible;
     position: inherit;
@@ -635,6 +649,8 @@ li.nav-item {
         -ms-flex-pack: center;
             justify-content: center;
     font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: 400;
   }
   .expert_img_wrapper .img_content h4 {
     color: #621a4b;
@@ -647,18 +663,12 @@ li.nav-item {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    font-family: 'Roboto';
+    font-weight: 700;
   }
 }
 
 @media only screen and (max-width: 767px) {
-  section.our_expert.py-5 {
-    visibility: hidden;
-    position: absolute;
-  }
-  .our_expert_mobile {
-    visibility: hidden;
-    position: absolute;
-  }
   .main-heading {
     font-size: 30px !important;
   }
@@ -684,6 +694,7 @@ li.nav-item {
     color: #621a4b;
     line-height: 55px;
     text-align: center;
+    font-family: 'Roboto';
   }
   .content_right p {
     font-size: 20px;
@@ -755,12 +766,14 @@ li.nav-item {
   font-size: 45px;
   color: #ffffff;
   line-height: 45px;
+  font-family: 'Roboto';
 }
 
 .banner_tiger_content p {
   font-size: 20px;
+  line-height: 25px;
   color: #fff;
-  font-weight: 300;
+  font-weight: 200;
   font-family: "Roboto";
 }
 
@@ -852,13 +865,14 @@ li.nav-item {
 }
 
 .content_wrapper a.heading_anchor {
-  font-size: 28px;
+  font-size: 25px;
   color: #621a4b;
   font-weight: 700;
   -webkit-transition: 250ms all ease-in;
   transition: 250ms all ease-in;
   text-decoration: none;
-  line-height: 38px;
+  line-height: 33px;
+  font-family: 'Roboto';
 }
 
 .content_wrapper a.heading_anchor:hover {
@@ -870,17 +884,20 @@ li.nav-item {
   font-size: 18px;
   font-weight: 400;
   line-height: 28px;
+  font-family: 'Roboto';
 }
 
 .content_wrapper a.btn_anchor {
   color: #1e141e;
   font-size: 18px;
   line-height: 28px;
+  font-weight: 700;
   text-transform: capitalize;
   text-decoration: none;
   -webkit-transition: 250ms all ease-in;
   transition: 250ms all ease-in;
   display: inline;
+  font-family: 'Roboto';
 }
 
 .content_wrapper a.btn_anchor:hover {
@@ -1021,19 +1038,24 @@ li.nav-item {
 .free-guide .txt-guide {
   font-size: 30px;
   color: #fba01f;
-  font-family: "roboto";
+  font-family: "Roboto";
   font-weight: bold;
 }
 
 .free-guide .txt-guide-heading {
   font-size: 45px;
-  font-family: "roboto";
+  font-family: "Roboto";
   font-weight: bold;
+  line-height: 55px;
 }
 
 .free-guide .line-height-custom {
   line-height: 33px;
   font-size: 20px;
+  font-family: 'Roboto';
+  width: 70%;
+  margin: 0 auto;
+  font-weight: 200;
 }
 
 .free-guide .line-height-custom strong a {
@@ -1107,17 +1129,25 @@ li.nav-item {
   }
 }
 
+.who_we_can_help {
+  background-image: url(../images/bg_view.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .who_we_can_help .txt-help {
   color: #621a4b;
   font-size: 45px;
   font-weight: bold;
-  font-family: "roboto";
+  font-family: "Roboto";
 }
 
 .who_we_can_help .text-paragraph {
   font-size: 17px;
   line-height: 28px;
   color: #383838;
+  font-family: 'Montserrat';
+  letter-spacing: 8;
 }
 
 .who_we_can_help .custom-listing li {
@@ -1180,6 +1210,7 @@ h2.custom-txt-purple {
   font-weight: bold;
   max-width: 40%;
   margin: auto;
+  font-family: 'Roboto';
 }
 
 .have-a-question .accordion-item {
@@ -1457,6 +1488,7 @@ footer {
   margin-top: 30px;
   text-decoration: none;
   background-color: transparent;
+  font-weight: 700;
   -webkit-transition: 250ms all ease-in;
   transition: 250ms all ease-in;
 }
@@ -1470,7 +1502,15 @@ footer {
   background-color: #621a4b;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1200px) {
+@media only screen and (min-width: 767px) and (max-width: 1200px) {
+  .who_we_can_help {
+    background-image: url(../images/bg_why_tab.png);
+    background-size: contain;
+    background-position: bottom;
+  }
+  .free-guide .line-height-custom {
+    padding: 20px 0px;
+  }
   .owl-news .slick-next.slick-arrow {
     position: absolute;
     right: 0px;
@@ -1512,7 +1552,10 @@ footer {
     line-height: 65px;
   }
   .right_wrapper_tiger {
-    margin-top: 70px !important;
+    margin-top: 40px !important;
+  }
+  .left_comp.banner_com {
+    bottom: 0px;
   }
 }
 
@@ -1669,6 +1712,7 @@ footer {
     font-size: 20px;
     font-weight: 200;
     margin-top: 15px;
+    width: 90%;
   }
   .form-control-custom {
     width: 70%;
@@ -1715,6 +1759,14 @@ footer {
 }
 
 @media (max-width: 767px) {
+  .who_we_can_help {
+    background-image: url(../images/bg_why_tab.png);
+    background-size: contain;
+    background-position: bottom;
+  }
+  .expert_img_wrapper {
+    width: 100%;
+  }
   .right_wrapper_tiger_form {
     position: relative;
     height: 550px !important;
@@ -1961,8 +2013,21 @@ footer {
   }
 }
 
+@media only screen and (min-width: 995px) and (max-width: 1050px) {
+  .left_comp.banner_com {
+    position: absolute;
+    left: -39px;
+    bottom: 30px;
+    width: 120px;
+  }
+}
+
 section.form_section {
   background-color: #f4f2f3;
+}
+
+.under_heading, .para_blo_sep, .btn-submit-form {
+  font-family: 'Roboto';
 }
 
 .inner_left_form {
@@ -2468,7 +2533,7 @@ button.btn.btn-banner:hover {
 
 .top_comp.banner_frm {
   position: absolute;
-  top: -46px;
-  left: -30px;
+  top: -25px;
+  left: -22px;
   z-index: -1;
 }

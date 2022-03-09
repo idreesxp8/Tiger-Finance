@@ -1,15 +1,20 @@
 .who_we_can_help {
+  background-image: url(../images/bg_view.png);
+  background-size: cover;
+  background-repeat: no-repeat;
   .txt-help {
     color: #621a4b;
     font-size: 45px;
     font-weight: bold;
-    font-family: "roboto";
+    font-family: "Roboto";
   }
 
   .text-paragraph {
     font-size: 17px;
     line-height: 28px;
     color: #383838;
+    font-family: 'Montserrat';
+    letter-spacing: 8;
   }
 
   .custom-listing li {

@@ -61,6 +61,7 @@
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
     color: #621A4B;
+    text-transform: capitalize;
 }
 .heading-separator {
     height: 4px;

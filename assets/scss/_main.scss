@@ -1,3 +1,6 @@
+.roboto {
+  font-family: 'Roboto';
+}
 .main_head {
   padding-top: 145px;
   background-image: url("../images/bg_main.jpg");
@@ -46,7 +49,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Roboto", sans-serif;
 
     &::before {
       content: "";
@@ -65,6 +68,7 @@
 .left_btn_wrapper {
   display: flex;
   gap: 30px;
+  font-family: 'Roboto';
   a {
     font-size: 18px;
     color: #fff;
@@ -117,13 +121,13 @@
 }
 .right_wrapper_tiger {
   position: relative;
-  height: 650px;
+  height: 100%;
   margin-bottom: -125px;
   z-index: 9;
   .left_comp {
     position: absolute;
     left: -65px;
-    bottom: 0px;
+    bottom: -130px;
     width: 30%;
   }
   .top_comp {

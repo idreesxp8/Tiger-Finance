@@ -7,18 +7,24 @@
   .txt-guide {
     font-size: 30px;
     color: #fba01f;
-    font-family: "roboto";
+    font-family: "Roboto";
     font-weight: bold;
   }
 
   .txt-guide-heading {
     font-size: 45px;
-    font-family: "roboto";
+    font-family: "Roboto";
     font-weight: bold;
+    line-height: 55px;
+
   }
   .line-height-custom {
     line-height: 33px;
     font-size: 20px;
+    font-family: 'Roboto';
+    width: 70%;
+    margin: 0 auto;
+    font-weight: 200;
     strong {
       a {
         color: #FFF;

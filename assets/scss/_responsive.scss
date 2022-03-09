@@ -14,6 +14,7 @@
     margin-top: 30px;
     text-decoration: none;
     background-color: transparent;
+    font-weight: 700;
     transition: 250ms all ease-in;
     img {
       width: 8px;
@@ -26,7 +27,15 @@
   }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1200px) {
+@media only screen and (min-width: 767px) and (max-width: 1200px) {
+  .who_we_can_help {
+    background-image: url(../images/bg_why_tab.png);
+    background-size: contain;
+    background-position: bottom;
+  }
+  .free-guide .line-height-custom {
+    padding: 20px 0px;
+  }
   .owl-news .slick-next.slick-arrow {
     position: absolute;
     right: 0px;
@@ -72,8 +81,12 @@
     line-height: 65px;
   }
   .right_wrapper_tiger {
-    margin-top: 70px !important;
+    margin-top: 40px !important;
   }
+  .left_comp.banner_com {
+    bottom: 0px;
+  }
+
 }
 
 @media (max-width: 1200px) {
@@ -230,6 +243,7 @@
     font-size: 20px;
     font-weight: 200;
     margin-top: 15px;
+    width: 90%;
   }
 
   .form-control-custom {
@@ -278,6 +292,15 @@
 }
 
 @media (max-width: 767px) {
+  .who_we_can_help {
+    background-image: url(../images/bg_why_tab.png);
+    background-size: contain;
+    background-position: bottom;
+  }
+  
+  .expert_img_wrapper {
+    width: 100%;
+  }
   .right_wrapper_tiger_form {
     position: relative;
     height: 550px !important;
@@ -520,3 +543,13 @@
     text-align: center;
   }
 }
+
+@media only screen and (min-width: 995px) and (max-width: 1050px) {
+  .left_comp.banner_com {
+    position: absolute;
+    left: -39px;
+    bottom: 30px;
+    width: 120px;
+  }
+}
+
