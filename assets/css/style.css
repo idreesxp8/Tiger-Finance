@@ -2280,6 +2280,7 @@ section.form_section {
   background-image: url(../images/banner.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: bottom;
 }
 
 .main_head_banner .tiger_center li::before {
@@ -2314,10 +2315,10 @@ section.form_section {
 
 .main_head_banner .tiger_top_left .banner-paragraph {
   font-size: 34px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 100;
   line-height: 38px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   width: 55%;
   margin: auto;
   text-align: center;
@@ -2330,10 +2331,10 @@ section.form_section {
 }
 
 .main_head_banner .tiger_list li p {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 22px;
   line-height: 30px;
-  color: #FFF;
+  color: #fff;
   font-weight: 100;
 }
 
@@ -2425,6 +2426,11 @@ section.form_section {
     width: 100%;
     margin-bottom: 10px;
   }
+  .main_head_banner .tiger_list li {
+    font-size: 14px;
+    line-height: 26px;
+    margin-left: 40px;
+  }
 }
 
 .txt-form-banner {
@@ -2484,3 +2490,4 @@ button.btn.btn-banner:hover {
   left: -30px;
   z-index: -1;
 }
+/*# sourceMappingURL=style.css.map */
