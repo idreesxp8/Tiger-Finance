@@ -777,10 +777,6 @@ li.nav-item {
   z-index: 999;
 }
 
-.right_wrapper_tiger {
-  height: none !important;
-}
-
 @media only screen and (max-width: 767px) {
   .banner_tiger_content h3 {
     text-align: center;
@@ -794,10 +790,6 @@ li.nav-item {
   }
   .form_callback_banner form {
     min-height: unset !important;
-  }
-  .right_wrapper_tiger {
-    margin-bottom: 40px !important;
-    height: 500px !important;
   }
 }
 
