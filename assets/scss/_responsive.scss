@@ -318,8 +318,11 @@
   .right_wrapper_tiger_form {
     position: relative;
     height: 550px !important;
-    margin-bottom: 5px !important;
+    margin-bottom: 30px !important;
     z-index: 9;
+  }
+  .form_callback_banner form {
+    padding: 20px !important;
   }
   .left_comp.banner_com {
     position: absolute;
