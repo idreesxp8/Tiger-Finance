@@ -398,7 +398,7 @@ li.nav-item {
 }
 
 .steps_section {
-  background-color: #621A4B;
+  background-color: #621a4b;
 }
 
 .steps_inner img {
@@ -409,7 +409,7 @@ li.nav-item {
 }
 
 .steps_form {
-  border: 1px solid #FFF;
+  border: 1px solid #fff;
   border-radius: 50%;
   width: 100px;
   height: 100px;
@@ -425,7 +425,7 @@ li.nav-item {
 }
 
 .steps_outter {
-  color: #FFF;
+  color: #fff;
   font-size: 20px;
 }
 
@@ -460,7 +460,7 @@ li.nav-item {
   content: "";
   width: 330px;
   height: 4px;
-  background-color: #FFF;
+  background-color: #fff;
   position: absolute;
   left: 99px;
   top: 50%;
@@ -479,7 +479,7 @@ li.nav-item {
 .steps_outter p {
   font-size: 16px;
   font-weight: 700;
-  color: #FFF;
+  color: #fff;
   margin-top: 10px;
   width: 75%;
   text-align: center;
@@ -494,7 +494,8 @@ li.nav-item {
     width: 50%;
     margin-bottom: 45px;
   }
-  .after_four::after, .after_two::after {
+  .after_four::after,
+  .after_two::after {
     width: 0px;
     height: 0px;
   }
@@ -762,6 +763,17 @@ li.nav-item {
   color: #fff;
   font-weight: 300;
   font-family: "Roboto";
+}
+
+.banner_tiger_content .main_head_banner .left_btn_wrapper {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center !important;
+}
+
+.main_head_banner .left_btn_wrapper a {
+  margin: unset;
+  z-index: 999;
 }
 
 .banner_section {

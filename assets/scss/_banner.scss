@@ -13,6 +13,17 @@
     font-weight: 300;
     font-family: "Roboto";
   }
+
+  .main_head_banner .left_btn_wrapper {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center !important;
+  }
+}
+
+.main_head_banner .left_btn_wrapper a {
+  margin: unset;
+  z-index: 999;
 }
 .banner_section {
   height: 320px;
