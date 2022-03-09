@@ -1470,15 +1470,6 @@ footer {
   background-color: #621a4b;
 }
 
-@media (max-width: 1400px) {
-  .right_wrapper_tiger_form {
-    position: relative;
-    height: 600px;
-    margin-bottom: -125px;
-    z-index: 9;
-  }
-}
-
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
   .owl-news .slick-next.slick-arrow {
     position: absolute;
@@ -1724,6 +1715,16 @@ footer {
 }
 
 @media (max-width: 767px) {
+  .right_wrapper_tiger_form {
+    position: relative;
+    height: 550px !important;
+    margin-bottom: 5px !important;
+    z-index: 9;
+  }
+  .left_comp.banner_com {
+    position: absolute;
+    bottom: -4px !important;
+  }
   .main_head {
     background-image: url(../images/bg_main_mob.png);
   }
@@ -2471,4 +2472,3 @@ button.btn.btn-banner:hover {
   left: -30px;
   z-index: -1;
 }
-/*# sourceMappingURL=style.css.map */
