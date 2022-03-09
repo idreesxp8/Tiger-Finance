@@ -486,7 +486,7 @@ li.nav-item {
 .steps_outter p {
   font-size: 16px;
   font-weight: 700;
-  color: #fff;
+  color: #FFF;
   margin-top: 10px;
   width: 75%;
   text-align: center;
@@ -2588,4 +2588,3 @@ button.btn.btn-banner:hover {
   left: -22px;
   z-index: -1;
 }
-/*# sourceMappingURL=style.css.map */
