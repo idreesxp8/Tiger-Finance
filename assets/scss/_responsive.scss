@@ -37,6 +37,29 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
+    .owl-news .slick-next.slick-arrow {
+        position: absolute;
+        right: 0px;
+        bottom: -70px;
+        top: unset;
+        visibility: hidden;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .owl-news .slick-prev.slick-arrow {
+        position: absolute;
+        left: 0px;
+        bottom: -70px;
+        top: unset;
+        visibility: hidden;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        z-index: 9;
+    }
+    .owl-news .slick-dots {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
   .brands .heading-separator {
     margin: auto;
   }
@@ -262,6 +285,35 @@
 }
 
 @media (max-width: 767px) {
+    .main_head {
+        background-image: url(../images/bg_main_mob.png);
+    }
+    .who_we_can_help .txt-help {
+        font-size: 40px;
+    }
+    .owl-news .slick-next.slick-arrow {
+        position: absolute;
+        right: 0px;
+        bottom: -70px;
+        top: unset;
+        visibility: hidden;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .owl-news .slick-prev.slick-arrow {
+        position: absolute;
+        left: 0px;
+        bottom: -70px;
+        top: unset;
+        visibility: hidden;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        z-index: 9;
+    }
+    .owl-news .slick-dots {
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
     .lending_mob .slick-next.slick-arrow {
         position: absolute;
         right: 30%;
