@@ -2434,21 +2434,54 @@ section.form_section {
 }
 
 .txt-form-banner {
-  font-size: 35px;
+  font-size: 30px;
   padding: 15px 0;
   color: #621a4b;
+  line-height: 40px;
 }
 
 .form_callback_banner form {
   background-color: #fff;
   min-height: 600px;
-  padding: 20px;
+  padding: 40px;
   z-index: 9999999;
   position: absolute;
   left: 0;
   right: 0;
   -webkit-box-shadow: 0px 15px 27px 0px rgba(0, 0, 0, 0.32);
           box-shadow: 0px 15px 27px 0px rgba(0, 0, 0, 0.32);
+}
+
+.main_head form .form-outline input::-webkit-input-placeholder {
+  color: #383838;
+}
+
+.main_head form .form-outline input:-ms-input-placeholder {
+  color: #383838;
+}
+
+.main_head form .form-outline input::-ms-input-placeholder {
+  color: #383838;
+}
+
+.main_head form .form-outline input::placeholder {
+  color: #383838;
+}
+
+input#form6Example4::-webkit-input-placeholder {
+  color: #383838 !important;
+}
+
+input#form6Example4:-ms-input-placeholder {
+  color: #383838 !important;
+}
+
+input#form6Example4::-ms-input-placeholder {
+  color: #383838 !important;
+}
+
+input#form6Example4::placeholder {
+  color: #383838 !important;
 }
 
 .form_callback_banner .form-control {
