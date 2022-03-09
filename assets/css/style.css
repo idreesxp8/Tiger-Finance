@@ -1515,6 +1515,13 @@ footer {
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1200px) {
+  .news_section .container {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    max-width: 100% !important;
+  }
   .who_we_can_help {
     background-image: url(../images/bg_why_tab.png);
     background-size: contain;
@@ -1525,7 +1532,7 @@ footer {
   }
   .owl-news .slick-next.slick-arrow {
     position: absolute;
-    right: 0px;
+    right: 10px;
     bottom: -70px;
     top: unset;
     visibility: hidden;
@@ -1534,7 +1541,7 @@ footer {
   }
   .owl-news .slick-prev.slick-arrow {
     position: absolute;
-    left: 0px;
+    left: 10px;
     bottom: -70px;
     top: unset;
     visibility: hidden;
