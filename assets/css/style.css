@@ -1479,7 +1479,7 @@ footer {
 }
 
 @media (max-width: 1400px) {
-  .right_wrapper_tiger {
+  .right_wrapper_tiger_form {
     position: relative;
     height: 600px;
     margin-bottom: -125px;
@@ -1669,7 +1669,7 @@ footer {
   .brands {
     padding-top: 95px !important;
   }
-  .right_wrapper_tiger {
+  .right_wrapper_tiger_form {
     position: relative;
     height: 650px;
     margin-bottom: -45px;
@@ -1811,7 +1811,7 @@ footer {
   }
   .nav-link {
     font-size: 18px;
-    color: #FFF;
+    color: #fff;
     line-height: 24px;
   }
   .navbar-nav {
@@ -1837,7 +1837,7 @@ footer {
   .dropdown-menu.show li .dropdown-item {
     padding: 0;
     margin: 10px 0px;
-    color: #FFF;
+    color: #fff;
   }
   .steps_outter {
     margin-bottom: 0px;
@@ -2479,3 +2479,4 @@ button.btn.btn-banner:hover {
   left: -30px;
   z-index: -1;
 }
+/*# sourceMappingURL=style.css.map */
