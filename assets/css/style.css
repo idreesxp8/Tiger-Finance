@@ -112,6 +112,28 @@ header {
   z-index: 9999999;
 }
 
+.dropdown-menu.show {
+  background-color: #621A4B;
+  padding: 0px;
+}
+
+.dropdown-menu.show li {
+  margin-left: 0px;
+}
+
+.dropdown-menu.show li .dropdown-item {
+  color: #FFF;
+  color: #FFF;
+  padding: 10px 15px;
+  -webkit-transition: 250ms all ease-in;
+  transition: 250ms all ease-in;
+}
+
+.dropdown-menu.show li .dropdown-item:hover {
+  background-color: #a72d7f;
+  opacity: 0.85;
+}
+
 .sticky_header {
   position: fixed;
   top: 0px;
@@ -2096,7 +2118,7 @@ section.form_section {
 
 .inner_left_form {
   background-color: #621a4b;
-  min-height: 420px;
+  height: 100vh;
   font-family: 'Roboto';
 }
 
@@ -2106,6 +2128,10 @@ section.form_section {
   -o-object-fit: contain;
      object-fit: contain;
   margin: 0 auto;
+}
+
+.form-outline {
+  margin-top: 15px;
 }
 
 .form_left_info h4 {
@@ -2133,7 +2159,7 @@ section.form_section {
 }
 
 .inner_right_form {
-  max-height: 420px;
+  height: 100vh;
 }
 
 .inner_right_form .txt-form {
@@ -2148,6 +2174,8 @@ section.form_section {
   border-bottom: 1px solid #383838;
   border-radius: unset;
   background-color: transparent;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .inner_right_form textarea.form-control {
@@ -2168,6 +2196,7 @@ section.form_section {
 
 .inner_right_form label.form-label {
   color: #383838;
+  margin-bottom: 0px;
 }
 
 .inner_right_form textarea.form-control::-webkit-input-placeholder {
@@ -2217,10 +2246,12 @@ section.form_section {
   background-size: 100%;
   background-repeat: no-repeat;
   position: absolute;
-  top: 17px;
+  top: 50%;
   right: 25px;
   width: 8px;
   height: 15px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .main_head .banner-paragraph {
@@ -2639,4 +2670,123 @@ button.btn.btn-banner:hover {
   top: -25px;
   left: -22px;
   z-index: -1;
+}
+
+.brands {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 60px;
+}
+
+.brands_slider_container {
+  height: 130px;
+  padding-left: 97px;
+  padding-right: 97px;
+  background: #fff;
+  position: relative;
+}
+
+.brands_slider {
+  height: 100%;
+}
+
+.brands_item {
+  height: 100%;
+}
+
+.brands_item img {
+  max-width: 100%;
+}
+
+.brands_nav {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.brands_nav i {
+  color: #e5e5e5;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.brands_nav:hover i {
+  color: #676767;
+}
+
+.brands_prev {
+  left: 0px;
+}
+
+.brands_next {
+  right: 0px;
+}
+
+.main-heading {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  color: #621A4B;
+  text-transform: capitalize;
+}
+
+.heading-separator {
+  height: 4px;
+  background: #FBA01F;
+  width: 135px;
+}
+
+.loans-term {
+  padding: 60px 0 100px 0;
+}
+
+.loans-term-content h2 {
+  font-size: 45px;
+  font-family: 'Roboto', sans-serif;
+  color: #621A4B;
+  font-weight: bold;
+}
+
+.loans-lists ul {
+  list-style: none;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.loans-lists ul li img {
+  margin-right: 10px;
+}
+
+.loans-lists ul li {
+  font-size: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: #621A4B;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+
+.loans-lists ul li::before {
+  content: "";
+  background-image: url("../images/tick.svg");
+  background-repeat: no-repeat;
+  background-size: 18px;
+  width: 23px;
+  height: 18px;
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+
+.navbar-nav li a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-nav li {
+  margin-left: 10px;
 }

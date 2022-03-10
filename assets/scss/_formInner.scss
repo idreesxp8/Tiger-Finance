@@ -6,7 +6,7 @@ section.form_section {
 }
 .inner_left_form {
   background-color: #621a4b;
-  min-height: 420px;
+  height: 100vh;
   font-family: 'Roboto';
   img {
     width: 280px;
@@ -14,6 +14,10 @@ section.form_section {
     object-fit: contain;
     margin: 0 auto;
   }
+}
+
+.form-outline {
+  margin-top: 15px;
 }
 .form_left_info {
   h4 {
@@ -41,7 +45,7 @@ section.form_section {
   }
 }
 .inner_right_form {
-  max-height: 420px;
+  height: 100vh;
   .txt-form {
     font-size: 25px;
     color: #621a4b;
@@ -54,6 +58,8 @@ section.form_section {
     border-bottom: 1px solid #383838;
     border-radius: unset;
     background-color: transparent;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   textarea.form-control {
@@ -74,6 +80,7 @@ section.form_section {
 
   label.form-label {
     color: #383838;
+    margin-bottom: 0px;
   }
 
   textarea.form-control::placeholder {
@@ -106,10 +113,11 @@ section.form_section {
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
-    top: 17px;
+    top: 50%;
     right: 25px;
     width: 8px;
     height: 15px;
+    transform: translateY(-50%);
   }
   
 }

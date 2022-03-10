@@ -6,6 +6,24 @@ header {
     width: 100%;
     z-index: 9999999;
 }
+.dropdown-menu.show {
+    background-color: #621A4B;
+    padding: 0px;
+    li {
+        margin-left: 0px;
+        .dropdown-item {
+            color: #FFF;
+            color: #FFF;
+            padding: 10px 15px;
+            transition: 250ms all ease-in;
+
+            &:hover {
+                background-color: #a72d7f;
+                opacity: 0.85;
+            }
+        }
+    }
+}
 
 .sticky_header {
     position: fixed;
