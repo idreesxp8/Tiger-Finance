@@ -662,3 +662,46 @@
 }
 
 }
+
+
+@media only screen and (min-width: 1199px) and (max-width: 1400px) {
+  .tiger_top_left h3 {
+    line-height: 54px;
+    font-size: 44px;
+}
+}
+@media only screen and (min-width: 991px) and (max-width: 1200px) {
+  .steps_form::after {
+    width: 370px;
+}
+.after_two::after {
+  width: 0px;
+}
+}
+@media only screen and (min-width: 1200px) and (max-width: 1200px) {
+  .steps_form::after {
+    width: 472px;
+}
+  .nav-link {
+    font-size: 14px;
+}
+.after_two::after {
+  width: 0px;
+}
+.who_we_can_help .text-paragraph {
+	font-size: 20px;
+	line-height: 36px;
+}
+.content_wrapper {
+	min-height: 325px;
+}
+.main_head_banner .tiger_list li p {
+
+	font-size: 18px !important;
+	line-height: 30px;
+
+}
+.main_head_banner .tiger_top_left .banner-paragraph {
+	font-size: 28px !important;
+}
+}
