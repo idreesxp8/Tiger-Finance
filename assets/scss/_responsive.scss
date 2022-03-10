@@ -605,3 +605,23 @@
   }
 }
 
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .link_last_footer li a {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1385px) {
+  .nav-link {
+    font-size: 17px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .navbar-nav li {
+    margin-left: 10px;
+  }
+  .collapse.navbar-collapse {
+    justify-content: flex-end;
+  }
+}

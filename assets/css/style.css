@@ -1490,6 +1490,10 @@ footer {
   line-height: 14px;
 }
 
+.footer_bottom_border {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+}
+
 .news_btn_wrap {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2101,6 +2105,28 @@ footer {
     left: -39px;
     bottom: 30px;
     width: 120px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .link_last_footer li a {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1385px) {
+  .nav-link {
+    font-size: 17px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .navbar-nav li {
+    margin-left: 10px;
+  }
+  .collapse.navbar-collapse {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
   }
 }
 
