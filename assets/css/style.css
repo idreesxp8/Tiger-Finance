@@ -2119,6 +2119,12 @@ footer {
   .tiger_top_left h2 {
     font-size: 72px;
   }
+  h2.custom-txt-purple {
+    font-size: 34px;
+  }
+  .steps_form::after {
+    width: 305px;
+  }
   .nav-link {
     font-size: 15px;
     padding-left: .2rem !important;
