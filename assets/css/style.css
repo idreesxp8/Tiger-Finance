@@ -170,7 +170,6 @@ li.nav-item {
 .nav-link {
   font-size: 18px;
   color: #FFF;
-  line-height: 72px;
   font-weight: 400;
   -webkit-transition: 250ms all ease-in;
   transition: 250ms all ease-in;
@@ -1543,7 +1542,6 @@ footer {
   .nav-link {
     font-size: 18px;
     color: #fff;
-    line-height: 24px;
   }
   .navbar-nav {
     background-color: #62194a;
@@ -1691,7 +1689,6 @@ footer {
   .nav-link {
     font-size: 22px;
     color: #fff;
-    line-height: 24px;
   }
   .navbar-nav {
     background-color: #62194a;
@@ -1943,7 +1940,6 @@ footer {
   .nav-link {
     font-size: 18px;
     color: #fff;
-    line-height: 24px;
   }
   .navbar-nav {
     background-color: #62194a;
@@ -2002,7 +1998,6 @@ footer {
   .nav-link {
     font-size: 18px;
     color: #fff;
-    line-height: 22px;
   }
   .brands {
     margin-top: 50px;
