@@ -518,7 +518,7 @@ li.nav-item {
 
 @media (max-width: 767px) {
   .steps_form::after {
-    width: 120px;
+    width: 170px;
   }
   .steps_outter {
     width: 50%;
@@ -811,12 +811,8 @@ li.nav-item {
   z-index: 999;
 }
 
-.banner_section {
-  height: 320px;
-}
-
 .img_wrap_left {
-  height: 320px;
+  height: 100%;
 }
 
 .left_btn_wrapper a {
@@ -1574,7 +1570,7 @@ footer {
 
 @media only screen and (min-width: 767px) and (max-width: 1200px) {
   .content_wrapper {
-    min-height: 300px;
+    min-height: 365px;
   }
   .news_section .container, .brands .container {
     padding-left: 0px !important;
@@ -2120,8 +2116,8 @@ section.form_section {
 
 .inner_left_form {
   background-color: #621a4b;
-  height: 100vh;
   font-family: 'Roboto';
+  height: 100%;
 }
 
 .inner_left_form img {
@@ -2133,7 +2129,7 @@ section.form_section {
 }
 
 .form-outline {
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .form_left_info h4 {
@@ -2161,7 +2157,7 @@ section.form_section {
 }
 
 .inner_right_form {
-  height: 100vh;
+  min-height: 460px;
 }
 
 .inner_right_form .txt-form {
@@ -2267,7 +2263,10 @@ section.form_section {
 @media only screen and (max-width: 1200px) {
   .inner_left_form {
     margin-bottom: 0 !important;
-    min-height: unset;
+    min-height: 460px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .inner_left_form img {
     visibility: hidden;
