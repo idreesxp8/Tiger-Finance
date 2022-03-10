@@ -1,19 +1,33 @@
 section.form_section {
   background-color: #f4f2f3;
 }
-.under_heading, .para_blo_sep, .btn-submit-form {
-  font-family: 'Roboto';
+.under_heading,
+.para_blo_sep,
+.btn-submit-form {
+  font-family: "Roboto";
 }
 .inner_left_form {
   background-color: #621a4b;
   min-height: 420px;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   img {
     width: 280px;
     height: 70px;
     object-fit: contain;
     margin: 0 auto;
   }
+}
+
+.inner_right_form .btn-submit-form::after {
+  content: "";
+  background-image: url(../images/arrow_next.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 15px !important;
+  right: 25px;
+  width: 8px;
+  height: 15px;
 }
 .form_left_info {
   h4 {
@@ -111,11 +125,10 @@ section.form_section {
     width: 8px;
     height: 15px;
   }
-  
 }
 
 .main_head .banner-paragraph {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .main_head form .form-outline input {
   text-transform: capitalize;
@@ -170,112 +183,111 @@ section.form_section {
   }
 }
 
-
 @media screen and (max-width: 1180px) and (min-width: 768px) {
   .main_head {
-      padding-top: 160px;
+    padding-top: 160px;
   }
   .main_head .w-75 {
-      width: 94% !important;
+    width: 94% !important;
   }
   .main_head h2 {
-      font-size: 87px;
-      line-height: 87px;
-      font-weight: bold;
-      margin-bottom: 10px;
+    font-size: 87px;
+    line-height: 87px;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
   .main_head h3 {
-      font-size: 80px;
-      line-height: 80px;
-      font-weight: bold;
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: bold;
   }
   .main_head .tiger_top_left .banner-paragraph {
-      width: 94%;
-      font-size: 30px;
-      line-height: 30px;
-      margin-top: 10px;
+    width: 94%;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 10px;
   }
   .main_head .tiger_list li {
-      text-align: left;
-      padding-left: 24px;
-      font-size: 23px;
-      line-height: 23px;
+    text-align: left;
+    padding-left: 24px;
+    font-size: 23px;
+    line-height: 23px;
   }
   .main_head .left_btn_wrapper a {
-      width: 44%;
-      margin-bottom: 10px;
-  }  
-  .main_head .left_btn_wrapper{
+    width: 44%;
+    margin-bottom: 10px;
+  }
+  .main_head .left_btn_wrapper {
     margin-top: 20px;
   }
   .main_head .right_wrapper_tiger {
-      margin-top: 10px;
+    margin-top: 10px;
   }
   .main_head .left_btn_wrapper {
-      gap: 10px;
+    gap: 10px;
   }
-  .main_head .txt-form-banner{
+  .main_head .txt-form-banner {
     font-size: 35px;
     line-height: 35px;
   }
   .main_head form .position-relative .btn-banner {
-      width: 100%;
-      margin-top: 20px;
+    width: 100%;
+    margin-top: 20px;
   }
   .main_head form {
-      padding: 20px 80px !important;
-      min-height: 550px !important;
+    padding: 20px 80px !important;
+    min-height: 550px !important;
   }
 }
 
 @media screen and (max-width: 767px) and (min-width: 280px) {
   .main_head {
-      padding-top: 100px;
+    padding-top: 100px;
   }
   .main_head .w-75 {
-      width: 100% !important;
+    width: 100% !important;
   }
   .main_head h2 {
-      font-size: 50px;
-      line-height: 50px;
-      font-weight: bold;
-      margin-bottom: 10px;
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
   .main_head h3 {
-      font-size: 47px;
-      line-height: 47px;
-      font-weight: bold;
+    font-size: 47px;
+    line-height: 47px;
+    font-weight: bold;
   }
   .main_head .tiger_top_left .banner-paragraph {
-      width: 100%;
-      font-size: 24px;
-      line-height: 24px;
-      margin-top: 10px;
-      font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-size: 24px;
+    line-height: 24px;
+    margin-top: 10px;
+    font-family: "Montserrat", sans-serif;
   }
   .main_head .tiger_list li {
-      text-align: left;
-      font-size: 23px;
-      margin-bottom: 10px !important;
-      line-height: 23px;
+    text-align: left;
+    font-size: 23px;
+    margin-bottom: 10px !important;
+    line-height: 23px;
   }
   .main_head .tiger_top_left .tiger_list li.ps-4 {
-      width: 100%;
-      margin-bottom: 0;
+    width: 100%;
+    margin-bottom: 0;
   }
   .main_head .left_btn_wrapper a {
-      width: 100%;
-      margin-bottom: 10px;
+    width: 100%;
+    margin-bottom: 10px;
   }
   .main_head .right_wrapper_tiger {
-      margin-top: 10px;
+    margin-top: 10px;
   }
-  .main_head .txt-form-banner{
+  .main_head .txt-form-banner {
     font-size: 25px;
     line-height: 25px;
   }
   .main_head form .position-relative .btn-banner {
-      width: 100%;
-      margin-top: 20px;
+    width: 100%;
+    margin-top: 20px;
   }
 }
