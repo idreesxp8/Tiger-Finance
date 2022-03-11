@@ -2215,6 +2215,12 @@ footer {
   }
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1205px) {
+  .nav-link {
+    font-size: 14px;
+  }
+}
+
 section.form_section {
   background-color: #f4f2f3;
 }
