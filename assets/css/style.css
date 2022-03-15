@@ -273,6 +273,7 @@ li.nav-item {
       -ms-flex-align: center;
           align-items: center;
   font-family: "Roboto", sans-serif;
+  margin: 5px 0px;
 }
 
 .tiger_list li::before {
