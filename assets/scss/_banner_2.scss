@@ -101,6 +101,9 @@
 }
 
 @media screen and (max-width: 767px) and (min-width: 280px) {
+  button.btn.btn-banner {
+    min-width: auto !important;
+  }
   .main_head_banner {
     padding-top: 100px;
   }
