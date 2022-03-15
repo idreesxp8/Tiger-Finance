@@ -239,6 +239,9 @@ section.form_section {
 }
 
 @media screen and (max-width: 767px) and (min-width: 280px) {
+  .left_btn_wrapper.wrap_mob {
+    margin-top: 120px !important;
+  }
   .main_head {
     padding-top: 100px;
   }
