@@ -209,4 +209,78 @@ a.nav-link.nav-call-cta {
 }
 
 
+.great-loan-card {
+    background-color: #621a4b;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h2 {
+        font-family: 'Roboto';
+        font-size: 35px;
+        color: #fff;
+        text-transform: capitalize;
+    }
+
+    a.arrow-btn {
+        margin-right: auto;
+        margin-top: 35px;
+
+        img {
+            width: 40px;
+        }
+    }
+}
+
+.great-loan-sm-card {
+    .wrapper-great-loan {
+        background-color: #F4F2F3;
+    }
+
+    .great-loan {
+        margin-top: -2px;
+        padding: 25px;
+    }
+
+    .click-great-loan {
+        background-color: #62194a;
+        text-decoration: none;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        font-size: 18px;
+        font-family: 'Roboto';
+        font-weight: 700;
+        transition: .3s all ease-in-out;
+    }
+
+    .click-great-loan:hover {
+        opacity: 0.9;
+    }
+
+    h2 {
+        color: #621a4b;
+        font-size: 28px;
+        font-weight: bold;
+        font-family: "Roboto";
+        margin: 10px 0;
+    }
+
+    .great-loan {
+        ul {
+            columns: 1;
+            column-width: auto;
+            column-count: 1;
+            -webkit-columns: 1;
+
+            li {
+                font-weight: 400;
+            }
+        }
+    }
+}
+
 @import "_responsive-new";

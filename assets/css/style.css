@@ -2943,6 +2943,67 @@ a.nav-link.nav-call-cta {
   z-index: -2;
 }
 
+.great-loan-card {
+  background-color: #621a4b;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.great-loan-card h2 {
+  font-family: "Roboto";
+  font-size: 35px;
+  color: #fff;
+  text-transform: capitalize;
+}
+.great-loan-card a.arrow-btn {
+  margin-right: auto;
+  margin-top: 35px;
+}
+.great-loan-card a.arrow-btn img {
+  width: 40px;
+}
+
+.great-loan-sm-card .wrapper-great-loan {
+  background-color: #F4F2F3;
+}
+.great-loan-sm-card .great-loan {
+  margin-top: -2px;
+  padding: 25px;
+}
+.great-loan-sm-card .click-great-loan {
+  background-color: #62194a;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 700;
+  transition: 0.3s all ease-in-out;
+}
+.great-loan-sm-card .click-great-loan:hover {
+  opacity: 0.9;
+}
+.great-loan-sm-card h2 {
+  color: #621a4b;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Roboto";
+  margin: 10px 0;
+}
+.great-loan-sm-card .great-loan ul {
+  columns: 1;
+  column-width: auto;
+  column-count: 1;
+  -webkit-columns: 1;
+}
+.great-loan-sm-card .great-loan ul li {
+  font-weight: 400;
+}
+
 @media only screen and (max-width: 767px) {
   .stress-about .col-tilt::before {
     display: none;
@@ -2996,6 +3057,10 @@ a.nav-link.nav-call-cta {
     font-size: 30px;
     font-family: "Roboto";
   }
+
+  .great-loan-card, .great-loan-sm-card {
+    margin-bottom: 20px;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .stress-about .listing-stress-wrapper {
@@ -3007,6 +3072,10 @@ a.nav-link.nav-call-cta {
   .stress-about .heading-stress-about {
     font-size: 45px;
     font-family: "Roboto";
+  }
+
+  .great-loan-card, .great-loan-sm-card {
+    margin-bottom: 20px;
   }
 }
 .navbar-cs-call .nav-call-cta .login_img {

@@ -54,6 +54,10 @@ $breakpoint-tablet: 1200px;
         font-size: 30px;
         font-family: 'Roboto';
     }
+
+    .great-loan-card, .great-loan-sm-card {
+        margin-bottom: 20px;
+    }
 }
 
 @media only screen and (max-width: $breakpoint-tablet) {
@@ -66,5 +70,8 @@ $breakpoint-tablet: 1200px;
     .stress-about .heading-stress-about {
         font-size: 45px;
         font-family: 'Roboto';
+    }
+    .great-loan-card, .great-loan-sm-card {
+        margin-bottom: 20px;
     }
 }
