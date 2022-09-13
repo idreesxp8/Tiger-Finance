@@ -2945,17 +2945,25 @@ a.nav-link.nav-call-cta {
 
 .great-loan-card {
   background-color: #621a4b;
-  min-height: 400px;
+  min-height: 534px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+.great-loan-card img {
+  width: 100%;
+  height: 224px;
+}
 .great-loan-card h2 {
+  color: #621a4b;
+  font-weight: bold;
   font-family: "Roboto";
-  font-size: 35px;
-  color: #fff;
-  text-transform: capitalize;
+  margin: 10px 0;
+  font-size: 30px;
+}
+.great-loan-card .great-loan ul li {
+  font-weight: 400;
 }
 .great-loan-card a.arrow-btn {
   margin-right: auto;
@@ -2965,6 +2973,9 @@ a.nav-link.nav-call-cta {
   width: 40px;
 }
 
+.great-loan-sm-card .great-loan-sm-card {
+  min-height: 534px;
+}
 .great-loan-sm-card .wrapper-great-loan {
   background-color: #F4F2F3;
 }
