@@ -227,7 +227,7 @@ a.nav-link.nav-call-cta {
         font-weight: bold;
         font-family: "Roboto";
         margin: 10px 0;
-        font-size: 30px;
+        font-size: 55px;
     }
 
     .great-loan ul li {
@@ -237,9 +237,10 @@ a.nav-link.nav-call-cta {
     a.arrow-btn {
         margin-right: auto;
         margin-top: 35px;
-
+        
         img {
-            width: 40px;
+            width: 60px;
+        height: auto;
         }
     }
 }
@@ -262,10 +263,8 @@ a.nav-link.nav-call-cta {
         background-color: #62194a;
         text-decoration: none;
         color: #fff;
-        display: flex;
-        justify-content: center;
         padding: 20px 0;
-        font-size: 18px;
+        font-size: 25px;
         font-family: 'Roboto';
         font-weight: 700;
         transition: .3s all ease-in-out;
@@ -277,7 +276,7 @@ a.nav-link.nav-call-cta {
 
     h2 {
         color: #621a4b;
-        font-size: 28px;
+        font-size: 30px;
         font-weight: bold;
         font-family: "Roboto";
         margin: 10px 0;
@@ -292,6 +291,8 @@ a.nav-link.nav-call-cta {
 
             li {
                 font-weight: 400;
+                font-size: 25px;
+                font-family: 'Roboto';
             }
         }
     }

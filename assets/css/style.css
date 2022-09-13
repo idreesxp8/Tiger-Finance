@@ -2960,7 +2960,7 @@ a.nav-link.nav-call-cta {
   font-weight: bold;
   font-family: "Roboto";
   margin: 10px 0;
-  font-size: 30px;
+  font-size: 55px;
 }
 .great-loan-card .great-loan ul li {
   font-weight: 400;
@@ -2970,7 +2970,8 @@ a.nav-link.nav-call-cta {
   margin-top: 35px;
 }
 .great-loan-card a.arrow-btn img {
-  width: 40px;
+  width: 60px;
+  height: auto;
 }
 
 .great-loan-sm-card .great-loan-sm-card {
@@ -2987,10 +2988,8 @@ a.nav-link.nav-call-cta {
   background-color: #62194a;
   text-decoration: none;
   color: #fff;
-  display: flex;
-  justify-content: center;
   padding: 20px 0;
-  font-size: 18px;
+  font-size: 25px;
   font-family: "Roboto";
   font-weight: 700;
   transition: 0.3s all ease-in-out;
@@ -3000,7 +2999,7 @@ a.nav-link.nav-call-cta {
 }
 .great-loan-sm-card h2 {
   color: #621a4b;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: bold;
   font-family: "Roboto";
   margin: 10px 0;
@@ -3013,6 +3012,8 @@ a.nav-link.nav-call-cta {
 }
 .great-loan-sm-card .great-loan ul li {
   font-weight: 400;
+  font-size: 25px;
+  font-family: "Roboto";
 }
 
 @media only screen and (max-width: 767px) {
