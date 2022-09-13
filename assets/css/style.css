@@ -2635,6 +2635,26 @@ a.nav-link.nav-call-cta {
 .stress-about .list-left-stress li, .stress-about .list-right-stress ul {
   font-size: 18px;
 }
+.stress-about .bg-stress-about {
+  background-image: url(../images/about-stress.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  min-height: 400px;
+}
+.stress-about .bg-stress-about {
+  z-index: 1;
+}
+.stress-about .listing-stress-wrapper {
+  z-index: 9999;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(50%);
+  padding-left: 40px;
+}
 
 .col-tilt {
   position: relative;
@@ -2645,12 +2665,20 @@ a.nav-link.nav-call-cta {
   content: "";
   position: absolute;
   background-color: #F4F2F3;
-  z-index: -1;
+  z-index: 2;
   width: 100%;
   height: 99.5%;
   transform: skewX(14deg);
-  left: -36px;
+  left: -52px;
   top: 0;
+  box-shadow: -13px 0px 11px -9px rgba(0, 0, 0, 0.31);
+}
+
+.looking-for-car .heading-car-loan-about {
+  font-size: 34px;
+  text-transform: capitalize;
+  color: #fff;
+  font-weight: 700;
 }
 
 .tiger_listing_updated li {
