@@ -2873,8 +2873,8 @@ a.nav-link.nav-call-cta {
   font-weight: 700;
 }
 
-.tiger_listing_updated li {
-  width: 100%;
+.finance-gradient {
+  background-color: #62194a;
 }
 
 @media only screen and (max-width: 767px) {
@@ -2917,6 +2917,32 @@ a.nav-link.nav-call-cta {
 }
 .navbar-cs-call .nav-call-cta {
   margin-bottom: 10px;
+}
+
+.tiger_listing_updated li {
+  width: 100%;
+}
+
+.wrapper-slider .slider-arrow {
+  z-index: 999;
+}
+.wrapper-slider img {
+  z-index: 999;
+  height: 100%;
+}
+
+.main_head_new .wrapper-slider {
+  margin-bottom: -100px !important;
+}
+.main_head_new .right_wrapper_tiger .top_comp {
+  position: absolute;
+  top: -380px;
+  left: -307px;
+  z-index: -3;
+  width: 100%;
+}
+.main_head_new .right_comp {
+  z-index: 1;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -17,6 +17,11 @@
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <title>Tiger Finance</title>
+  <script>
+    $( document ).ready(function() {
+      $('.slick-main').slick();
+    });
+  </script>
 </head>
 
 <body>
@@ -148,7 +153,7 @@
   <!-- Header Ends -->
 
   <!-- Banner Starts -->
-  <section class="main_head pb-5">
+  <section class="main_head main_head_new">
     <div class="container">
       <div class="row">
         <div class="col-12 col-xl-6">
@@ -175,17 +180,51 @@
         </div>
 
         <div class="col-12 col-xl-6">
-          <div class="right_wrapper_tiger position-relative">
-            <div class="img_main_Wrap">
-              <img class="w-100" src="./assets/images/banner-image.jpg" alt="" />
+
+
+          <div id="carouselExampleControls" class="carousel slide wrapper-slider" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                 <div class="right_wrapper_tiger position-relative">
+                      <div class="img_main_Wrap">
+                        <img class="w-100" src="./assets/images/banner-image.jpg" alt="" />
+                      </div>
+                      <img class="left_comp" src="./assets/images/banner-left-bottom-corner.svg" alt="" />
+                      <img class="top_comp" src="./assets/images/banner-left-corner.svg" alt="" />
+                      <img class="right_comp" src="./assets/images/banner-right-corner.svg" alt="" />
+                    </div>
+              </div>
+              <div class="carousel-item">
+                 <div class="right_wrapper_tiger position-relative">
+                      <div class="img_main_Wrap">
+                        <img class="w-100" src="./assets/images/banner-image.jpg" alt="" />
+                      </div>
+                      <img class="left_comp" src="./assets/images/banner-left-bottom-corner.svg" alt="" />
+                      <img class="top_comp" src="./assets/images/banner-left-corner.svg" alt="" />
+                      <img class="right_comp" src="./assets/images/banner-right-corner.svg" alt="" />
+                    </div>
+              </div>
+              <div class="carousel-item">
+                 <div class="right_wrapper_tiger position-relative">
+                      <div class="img_main_Wrap">
+                        <img class="w-100" src="./assets/images/banner-image.jpg" alt="" />
+                      </div>
+                      <img class="left_comp" src="./assets/images/banner-left-bottom-corner.svg" alt="" />
+                      <img class="top_comp" src="./assets/images/banner-left-corner.svg" alt="" />
+                      <img class="right_comp" src="./assets/images/banner-right-corner.svg" alt="" />
+                    </div>
+              </div>
             </div>
-            <img class="left_comp" src="./assets/images/banner-left-bottom-corner.svg" alt="" />
-            <img class="top_comp" src="./assets/images/banner-left-corner.svg" alt="" />
-            <img class="right_comp" src="./assets/images/banner-right-corner.svg" alt="" />
+            <button class="carousel-control-prev slider-arrow" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next slider-arrow" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
-
-
       </div>
     </div>
   </section>
