@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1177.556" height="527" viewBox="0 0 1177.556 527">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.046" y1="-0.853" x2="0.874" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#621a4b"/>
+      <stop offset="0.01" stop-color="#631b4b"/>
+      <stop offset="0.65" stop-color="#ff47c2"/>
+      <stop offset="1" stop-color="#fba01f"/>
+    </linearGradient>
+    <filter id="Path_879" x="0" y="0" width="1177.556" height="527" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="13" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6.5" result="blur"/>
+      <feFlood flood-opacity="0.18" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <path id="Path_879-2" data-name="Path 879" d="M1103.889,0H-73.667V527H966.365Z" transform="translate(73.667)" fill="url(#linear-gradient)"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_879)">
+      <path id="Path_879-3" data-name="Path 879" d="M1103.889,0H-73.667V527H966.365Z" transform="translate(73.67)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

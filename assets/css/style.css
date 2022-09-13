@@ -2767,9 +2767,11 @@ button.btn.btn-banner:hover {
 }
 
 .main_head .heading-updated .heading-updated h2 {
+  font-family: "Roboto";
   color: #fff;
 }
 .main_head .heading-updated .heading-updated h2 span {
+  font-family: "Roboto";
   color: #fba01f;
 }
 .main_head .heading-updated p {
@@ -2787,21 +2789,25 @@ a.nav-link.nav-call-cta {
   width: 20px;
 }
 .navbar-cs-call span {
+  font-family: "Roboto";
   font-size: 14px;
   text-align: center;
 }
 .navbar-cs-call .toll-txt {
+  font-family: "Roboto";
   font-size: 10px;
   text-align: center;
 }
 
 .stress-about .heading-stress-about {
+  font-family: "Roboto";
   font-size: 34px;
   text-transform: capitalize;
   color: #7B3044;
   font-weight: 700;
 }
-.stress-about .list-left-stress ul, .stress-about .list-right-stress ul {
+.stress-about .list-left-stress ul,
+.stress-about .list-right-stress ul {
   list-style-type: none;
   line-height: 30px;
 }
@@ -2812,10 +2818,12 @@ a.nav-link.nav-call-cta {
   flex-wrap: wrap;
   gap: 35px;
 }
-.stress-about .list-left-stress li, .stress-about .list-right-stress li {
+.stress-about .list-left-stress li,
+.stress-about .list-right-stress li {
   position: relative;
 }
-.stress-about .list-left-stress li::before, .stress-about .list-right-stress li::before {
+.stress-about .list-left-stress li::before,
+.stress-about .list-right-stress li::before {
   content: "";
   background-image: url("../images/cross-icon.svg");
   width: 20px;
@@ -2824,7 +2832,9 @@ a.nav-link.nav-call-cta {
   left: -25px;
   top: 5px;
 }
-.stress-about .list-left-stress li, .stress-about .list-right-stress ul {
+.stress-about .list-left-stress li,
+.stress-about .list-right-stress ul {
+  font-family: "Roboto";
   font-size: 18px;
 }
 .stress-about .bg-stress-about {
@@ -2867,14 +2877,70 @@ a.nav-link.nav-call-cta {
 }
 
 .looking-for-car .heading-car-loan-about {
+  font-family: "Roboto";
   font-size: 34px;
   text-transform: capitalize;
   color: #fff;
+  z-index: 3;
   font-weight: 700;
 }
 
-.finance-gradient {
+.looking-for-car .finance-gradient {
+  position: relative;
   background-color: #62194a;
+}
+.looking-for-car .finance-gradient::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  width: 40px;
+  position: absolute;
+  right: -30px;
+  top: 0;
+  background: linear-gradient(90deg, #e86966 6%, #f79925 100%);
+  transform: skewx(-5deg);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.looking-for-car .finance-gradient::after {
+  content: "";
+  background-color: #62194a;
+  position: absolute;
+  top: 0;
+  right: -20px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  transform: skewX(-7deg);
+}
+.looking-for-car .sub-txt-car {
+  font-family: "Roboto";
+  color: #fba01f;
+  font-size: 35px;
+  font-weight: 700;
+  z-index: 3;
+  text-transform: capitalize;
+}
+.looking-for-car .finance-gradient p {
+  font-family: "Roboto";
+  margin: 5px 0;
+  color: #fff;
+  font-size: 18px;
+  z-index: 3;
+}
+.looking-for-car .new-btn .apply_btn {
+  padding: 15px 24px;
+  margin: unset;
+  height: unset;
+  width: unset;
+}
+.looking-for-car .carloan-finance {
+  background-image: url("../images/car-loan.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  z-index: -2;
 }
 
 @media only screen and (max-width: 767px) {
@@ -2895,10 +2961,40 @@ a.nav-link.nav-call-cta {
 
   .stress-about .heading-stress-about {
     font-size: 40px;
+    font-family: "Roboto";
   }
 
-  .stress-about .list-left-stress li, .stress-about .list-right-stress li {
+  .stress-about .list-left-stress li,
+.stress-about .list-right-stress li {
     font-size: 15px;
+    font-family: "Roboto";
+  }
+
+  .brands {
+    padding-top: 75px !important;
+  }
+
+  .col-reverse {
+    flex-direction: column-reverse;
+  }
+
+  .looking-for-car .finance-gradient::before,
+.looking-for-car .finance-gradient::after {
+    display: none;
+  }
+
+  .col-reverse .left_btn_wrapper {
+    margin: 0;
+  }
+
+  .looking-for-car .heading-car-loan-about {
+    font-size: 45px;
+    font-family: "Roboto";
+  }
+
+  .looking-for-car .sub-txt-car {
+    font-size: 30px;
+    font-family: "Roboto";
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -2910,6 +3006,7 @@ a.nav-link.nav-call-cta {
 
   .stress-about .heading-stress-about {
     font-size: 45px;
+    font-family: "Roboto";
   }
 }
 .navbar-cs-call .nav-call-cta .login_img {
@@ -2943,6 +3040,39 @@ a.nav-link.nav-call-cta {
 }
 .main_head_new .right_comp {
   z-index: 1;
+}
+.main_head_new .slider-corner-cut::before {
+  content: "";
+  background-image: url("../images/banner-left-corner.svg");
+  position: absolute;
+  top: -110px;
+  height: 202px;
+  width: 100%;
+  left: -59px;
+  z-index: -1;
+  background-repeat: no-repeat;
+}
+.main_head_new .slider-corner-cut-2::before {
+  content: "";
+  background-image: url("../images/banner-left-bottom-corner.svg");
+  position: absolute;
+  bottom: 150px;
+  height: 202px;
+  width: 100%;
+  left: -80px;
+  z-index: 999;
+  background-repeat: no-repeat;
+}
+.main_head_new .slider-corner-cut-3::before {
+  content: "";
+  background-image: url("../images/banner-right-corner.svg");
+  position: absolute;
+  bottom: 150px;
+  height: 230px;
+  width: 100%;
+  right: -380px;
+  z-index: 999;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=style.css.map */

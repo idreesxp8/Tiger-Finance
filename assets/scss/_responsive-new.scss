@@ -1,9 +1,11 @@
 $breakpoint-mobile: 767px;
 $breakpoint-tablet: 1200px;
+
 @media only screen and (max-width: $breakpoint-mobile) {
     .stress-about .col-tilt::before {
         display: none;
     }
+
     .stress-about .listing-stress-wrapper {
         z-index: 9999;
         position: unset;
@@ -14,11 +16,43 @@ $breakpoint-tablet: 1200px;
         transform: unset;
         padding-left: unset;
     }
+
     .stress-about .heading-stress-about {
         font-size: 40px;
+        font-family: 'Roboto';
     }
-    .stress-about .list-left-stress li, .stress-about .list-right-stress li {
+
+    .stress-about .list-left-stress li,
+    .stress-about .list-right-stress li {
         font-size: 15px;
+        font-family: 'Roboto';
+    }
+
+    .brands {
+        padding-top: 75px !important;
+    }
+
+    .col-reverse {
+        flex-direction: column-reverse;
+    }
+
+    .looking-for-car .finance-gradient::before,
+    .looking-for-car .finance-gradient::after {
+        display: none;
+    }
+
+    .col-reverse .left_btn_wrapper {
+        margin: 0;
+    }
+
+    .looking-for-car .heading-car-loan-about {
+        font-size: 45px;
+        font-family: 'Roboto';
+    }
+
+    .looking-for-car .sub-txt-car {
+        font-size: 30px;
+        font-family: 'Roboto';
     }
 }
 
@@ -28,7 +62,9 @@ $breakpoint-tablet: 1200px;
         padding-left: unset;
         padding-right: 20px;
     }
+
     .stress-about .heading-stress-about {
         font-size: 45px;
+        font-family: 'Roboto';
     }
 }
