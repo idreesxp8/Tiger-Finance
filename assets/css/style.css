@@ -2609,18 +2609,48 @@ a.nav-link.nav-call-cta {
   color: #7B3044;
   font-weight: 700;
 }
-.stress-about .bg-stress-about {
-  background-image: url("../images/about-stress.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
+.stress-about .list-left-stress ul, .stress-about .list-right-stress ul {
+  list-style-type: none;
+  line-height: 30px;
 }
-.stress-about .bg-stress-about {
-  background-image: url(../images/about-stress.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-position: center;
-  min-height: 100vh;
+.stress-about .list-stress-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+.stress-about .list-left-stress li, .stress-about .list-right-stress li {
+  position: relative;
+}
+.stress-about .list-left-stress li::before, .stress-about .list-right-stress li::before {
+  content: "";
+  background-image: url("../images/cross-icon.svg");
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -25px;
+  top: 5px;
+}
+.stress-about .list-left-stress li, .stress-about .list-right-stress ul {
+  font-size: 18px;
+}
+
+.col-tilt {
+  position: relative;
+  background: #F4F2F3;
+}
+
+.stress-about .col-tilt::before {
+  content: "";
+  position: absolute;
+  background-color: #F4F2F3;
+  z-index: -1;
+  width: 100%;
+  height: 99.5%;
+  transform: skewX(14deg);
+  left: -36px;
+  top: 0;
 }
 
 .tiger_listing_updated li {
