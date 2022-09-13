@@ -1,0 +1,58 @@
+.main_head {
+        .heading-updated {
+           .heading-updated h2 {
+                color: #fff;
+                span {
+                    color: #fba01f;
+                }
+        }
+        p {
+            text-transform: capitalize;
+        }
+    }
+}
+
+a.nav-link.nav-call-cta {
+    display: flex;
+    flex-direction: column !important;
+    gap: 5px;
+}
+
+.navbar-cs-call {
+    .nav-call-cta .login_img {
+        filter: invert(63%) sepia(85%) saturate(554%) hue-rotate(343deg) brightness(99%) contrast(98%) !important;
+        width: 20px;
+    }
+    span {
+        font-size: 14px;
+        text-align: center;
+    }
+    .toll-txt {
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+.stress-about {
+    .heading-stress-about {
+        font-size: 34px;
+        text-transform: capitalize;
+        color: #7B3044;
+        font-weight: 700;
+    }
+    .bg-stress-about {
+        background-image: url('../images/about-stress.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+    }
+    .bg-stress-about {
+        background-image: url(../images/about-stress.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+        min-height: 100vh;
+    }
+}
+
+@import "_banner-new";
