@@ -3070,8 +3070,25 @@ a.nav-link.nav-call-cta {
     font-family: "Roboto";
   }
 
-  .great-loan-card, .great-loan-sm-card {
+  .great-loan-card,
+.great-loan-sm-card {
     margin-bottom: 20px;
+  }
+
+  .great-loan-card h2 {
+    font-size: 30px;
+  }
+
+  .great-loans .col-lg-4 {
+    margin-top: 25px;
+  }
+
+  .great-loan-card {
+    min-height: 450px;
+  }
+
+  .great-loan-sm-card .great-loan ul li {
+    font-size: 18px;
   }
 }
 @media only screen and (max-width: 1200px) {
@@ -3086,8 +3103,13 @@ a.nav-link.nav-call-cta {
     font-family: "Roboto";
   }
 
-  .great-loan-card, .great-loan-sm-card {
+  .great-loan-card,
+.great-loan-sm-card {
     margin-bottom: 20px;
+  }
+
+  .great-loans .col-lg-4 {
+    margin-top: 25px;
   }
 }
 .navbar-cs-call .nav-call-cta .login_img {
