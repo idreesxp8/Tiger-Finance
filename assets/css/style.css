@@ -2766,6 +2766,18 @@ button.btn.btn-banner:hover {
   margin-left: 10px;
 }
 
+.primary-color {
+  color: #fba01f !important;
+}
+
+.secondary-color {
+  color: #fba01f !important;
+}
+
+.font-robot {
+  font-family: "Roboto";
+}
+
 .main_head .heading-updated .heading-updated h2 {
   font-family: "Roboto";
   color: #fff;
@@ -2878,11 +2890,7 @@ a.nav-link.nav-call-cta {
 
 .looking-for-car .heading-car-loan-about {
   font-family: "Roboto";
-  font-size: 34px;
-  text-transform: capitalize;
-  color: #fff;
   z-index: 3;
-  font-weight: 700;
 }
 
 .looking-for-car .finance-gradient {
@@ -2915,12 +2923,12 @@ a.nav-link.nav-call-cta {
   transform: skewX(-7deg);
 }
 .looking-for-car .sub-txt-car {
-  font-family: "Roboto";
-  color: #fba01f;
-  font-size: 35px;
-  font-weight: 700;
   z-index: 3;
   text-transform: capitalize;
+  margin-bottom: 10px !important;
+}
+.looking-for-car .looking-for-car-wrap {
+  z-index: 99;
 }
 .looking-for-car .finance-gradient p {
   font-family: "Roboto";
@@ -2948,11 +2956,6 @@ a.nav-link.nav-call-cta {
 
 .great-loan-card {
   background-color: #621a4b;
-  min-height: 534px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 .great-loan-card img {
   width: 100%;

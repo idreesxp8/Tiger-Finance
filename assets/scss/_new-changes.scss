@@ -1,8 +1,8 @@
 .primary-color{
-  color: #fba01f;
+  color: #fba01f !important;
 }
 .secondary-color{
-  color:  #62194a;
+  color:  #fba01f !important;
 }
 .font-robot{
   font-family: 'Roboto';
@@ -179,15 +179,13 @@ a.nav-link.nav-call-cta {
 
   .sub-txt-car {
     z-index: 3;
-<<<<<<< Updated upstream
     text-transform: capitalize;
-<<<<<<< HEAD
     margin-bottom: 10px !important;
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> parent of fb34877 (updated changes)
   }
+
+  .looking-for-car-wrap {
+    z-index: 99;
+}
 
   .finance-gradient p {
     font-family: 'Roboto';
@@ -220,11 +218,6 @@ a.nav-link.nav-call-cta {
 
 .great-loan-card {
   background-color: #621a4b;
-  min-height: 534px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 
   img {
     width: 100%;
