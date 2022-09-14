@@ -126,12 +126,18 @@ $breakpoint-tablet: 1200px;
   }
 }
 @media only screen and (max-width: $breakpoint-tablet) {
-  .looking-for-car .bg-gradient-img {
-    background-image: url("../images/car-loan.png");
-    background-position: top;
-    background-repeat: no-repeat;
-    min-height: 500px;
-    padding-top: 410px;
+//   .looking-for-car .bg-gradient-img {
+//     background-image: url("../images/car-loan.png");
+//     background-position: top;
+//     background-repeat: no-repeat;
+//     min-height: 500px;
+//     padding-top: 410px;
+// }
+
+.bg-gradient-img {
+  background-position: center !important;
+  padding-top: 610px !important;
+  background-size: cover !important;
 }
 .looking-for-car .finance-gradient {
   padding: 40px 40px 49px 40px;
@@ -195,5 +201,11 @@ $breakpoint-tablet: 1200px;
       background-position: top;
       padding-top: 610px;
       background-size: contain;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width:1300px) {
+  .looking-for-car .heading-car-loan-about, .sub-txt-car  {
+    font-size: 40px !important;
   }
 }
