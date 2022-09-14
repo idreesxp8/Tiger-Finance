@@ -237,7 +237,7 @@ a.nav-link.nav-call-cta {
     a.arrow-btn {
         margin-right: auto;
         margin-top: 35px;
-        
+
         img {
             width: 60px;
         height: auto;
@@ -296,6 +296,19 @@ a.nav-link.nav-call-cta {
             }
         }
     }
+}
+
+.great-loans {
+  .img-wrapper {
+    background-image: url(../images/car.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 224px;
+  }
+  li {
+    margin-bottom: 15px !important;
+  }
 }
 
 @import "_responsive-new";

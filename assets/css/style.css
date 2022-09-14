@@ -3016,6 +3016,17 @@ a.nav-link.nav-call-cta {
   font-family: "Roboto";
 }
 
+.great-loans .img-wrapper {
+  background-image: url(../images/car.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 224px;
+}
+.great-loans li {
+  margin-bottom: 15px !important;
+}
+
 @media only screen and (max-width: 767px) {
   .stress-about .col-tilt::before {
     display: none;
@@ -3105,6 +3116,10 @@ a.nav-link.nav-call-cta {
     height: 230px !important;
     width: 50% !important;
     right: 10px !important;
+  }
+
+  .great-loans {
+    padding: 0 !important;
   }
 }
 @media only screen and (max-width: 1200px) {
