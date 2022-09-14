@@ -4,7 +4,7 @@
     }
 }
 
-.wrapper-slider{    
+.wrapper-slider{
     .slider-arrow {
         z-index: 999;
     }
@@ -34,11 +34,11 @@
         content: "";
         background-image: url("../images/banner-left-corner.svg");
         position: absolute;
-        top: -110px;
+        top: -115px;
         height: 202px;
         width: 100%;
         left: -59px;
-        z-index: -1;
+        z-index: 1;
         background-repeat: no-repeat;
     }
 
@@ -46,7 +46,7 @@
         content: "";
         background-image: url("../images/banner-left-bottom-corner.svg");
         position: absolute;
-        bottom: 150px;
+        bottom: -80px;
         height: 202px;
         width: 100%;
         left: -80px;
@@ -58,7 +58,7 @@
         content: "";
         background-image: url("../images/banner-right-corner.svg");
         position: absolute;
-        bottom: 150px;
+        top: 50px;
         height: 230px;
         width: 100%;
         right: -380px;

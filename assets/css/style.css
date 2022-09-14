@@ -3051,8 +3051,8 @@ a.nav-link.nav-call-cta {
     flex-direction: column-reverse;
   }
 
-  .looking-for-car .finance-gradient::before,
-.looking-for-car .finance-gradient::after {
+  .looking-for-car .finance-gradient::after,
+.looking-for-car .finance-gradient::before {
     display: none;
   }
 
@@ -3090,6 +3090,22 @@ a.nav-link.nav-call-cta {
   .great-loan-sm-card .great-loan ul li {
     font-size: 18px;
   }
+
+  .main_head_new .slider-corner-cut-2::before {
+    content: "";
+    bottom: -131px !important;
+    height: 200px !important;
+    width: 55% !important;
+    left: -40px !important;
+  }
+
+  .main_head_new .slider-corner-cut-3::before {
+    content: "";
+    top: -46px !important;
+    height: 230px !important;
+    width: 50% !important;
+    right: 10px !important;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .stress-about .listing-stress-wrapper {
@@ -3110,6 +3126,19 @@ a.nav-link.nav-call-cta {
 
   .great-loans .col-lg-4 {
     margin-top: 25px;
+  }
+
+  .main_head_new .slider-corner-cut-3::before {
+    content: "";
+    top: 50px !important;
+    height: 100% !important;
+    width: 100% !important;
+    right: -71% !important;
+  }
+
+  .main_head_new .slider-corner-cut-2::before {
+    content: "";
+    bottom: 0 !important;
   }
 }
 .navbar-cs-call .nav-call-cta .login_img {
@@ -3148,18 +3177,18 @@ a.nav-link.nav-call-cta {
   content: "";
   background-image: url("../images/banner-left-corner.svg");
   position: absolute;
-  top: -110px;
+  top: -115px;
   height: 202px;
   width: 100%;
   left: -59px;
-  z-index: -1;
+  z-index: 1;
   background-repeat: no-repeat;
 }
 .main_head_new .slider-corner-cut-2::before {
   content: "";
   background-image: url("../images/banner-left-bottom-corner.svg");
   position: absolute;
-  bottom: 150px;
+  bottom: -80px;
   height: 202px;
   width: 100%;
   left: -80px;
@@ -3170,7 +3199,7 @@ a.nav-link.nav-call-cta {
   content: "";
   background-image: url("../images/banner-right-corner.svg");
   position: absolute;
-  bottom: 150px;
+  top: 50px;
   height: 230px;
   width: 100%;
   right: -380px;
