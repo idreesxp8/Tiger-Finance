@@ -1,3 +1,12 @@
+.primary-color{
+  color: #fba01f;
+}
+.secondary-color{
+  color:  #62194a;
+}
+.font-robot{
+  font-family: 'Roboto';
+}
 .main_head {
   .heading-updated {
     .heading-updated h2 {
@@ -131,11 +140,7 @@ a.nav-link.nav-call-cta {
 .looking-for-car {
   .heading-car-loan-about {
     font-family: 'Roboto';
-    font-size: 34px;
-    text-transform: capitalize;
-    color: #fff;
     z-index: 3;
-    font-weight: 700;
   }
   .looking-for-car-wrap{
     z-index: 3;
@@ -178,13 +183,12 @@ a.nav-link.nav-call-cta {
   }
 
   .sub-txt-car {
-    font-family: 'Roboto';
-    color: #fba01f;
-    font-size: 35px;
-    font-weight: 700;
     z-index: 3;
+<<<<<<< Updated upstream
     text-transform: capitalize;
     margin-bottom: 10px !important;
+=======
+>>>>>>> Stashed changes
   }
 
   .finance-gradient p {
