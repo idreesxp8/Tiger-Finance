@@ -2984,9 +2984,8 @@ a.nav-link.nav-call-cta {
     gap: 80px;
     padding-left: 20px;
   }
-  .looking-for-car .bg-gradient-img {
-    background-image: unset;
-    padding: 0 !important;
+  .bg-gradient-img {
+    padding-top: unset !important;
   }
   .carloan-finance {
     background-image: url(../images/car-loan.png);
@@ -2994,7 +2993,7 @@ a.nav-link.nav-call-cta {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 100vh !important;
+    height: 50vh !important;
   }
 }
 @media only screen and (min-device-width: 820px) and (max-device-width: 1180px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
@@ -3009,7 +3008,8 @@ a.nav-link.nav-call-cta {
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1300px) {
-  .looking-for-car .heading-car-loan-about, .sub-txt-car {
+  .looking-for-car .heading-car-loan-about,
+.sub-txt-car {
     font-size: 40px !important;
   }
 }
