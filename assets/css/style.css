@@ -2937,8 +2937,14 @@ a.nav-link.nav-call-cta {
     background-size: cover;
     min-height: 350px;
   }
+  .stress-about .bg-stress-about {
+    background-position: center;
+  }
 }
 @media only screen and (max-width: 1200px) {
+  .stress-about .bg-stress-about {
+    background-position: center;
+  }
   .bg-gradient-img {
     background-image: url("../images/car-loan.png");
     background-position: center !important;

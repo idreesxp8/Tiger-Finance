@@ -124,6 +124,9 @@ $breakpoint-tablet: 1200px;
     background-size: cover;
     min-height: 350px;
   }
+  .stress-about .bg-stress-about {
+    background-position: center;
+  }
 }
 @media only screen and (max-width: $breakpoint-tablet) {
   //   .looking-for-car .bg-gradient-img {
@@ -133,6 +136,10 @@ $breakpoint-tablet: 1200px;
   //     min-height: 500px;
   //     padding-top: 410px;
   // }
+
+  .stress-about .bg-stress-about {
+    background-position: center;
+  }
 
   .bg-gradient-img {
     background-image: url("../images/car-loan.png");
