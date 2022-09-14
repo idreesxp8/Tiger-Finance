@@ -2844,7 +2844,8 @@ a.nav-link.nav-call-cta {
   left: -25px;
   top: 5px;
 }
-.stress-about .list-left-stress li, .stress-about .list-right-stress li {
+.stress-about .list-left-stress li,
+.stress-about .list-right-stress li {
   margin-bottom: 15px;
 }
 .stress-about .list-left-stress li,

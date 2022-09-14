@@ -91,9 +91,10 @@ $breakpoint-tablet: 1200px;
     right: 10px !important;
   }
 
-.great-loans {
+  .great-loans {
     padding: 0 !important;
-}
+  }
+
   .corner-cuts {
     display: none;
   }
@@ -131,16 +132,18 @@ $breakpoint-tablet: 1200px;
     width: 100% !important;
     right: -71% !important;
   }
+
   .main_head_new .slider-corner-cut-2::before {
     content: "";
     bottom: 0 !important;
   }
+
   .great-loans .img-wrapper {
     background-position: center top;
   }
+
   .stress-about .list-stress-about {
-    
     gap: 80px;
     padding-left: 20px;
-}
+  }
 }

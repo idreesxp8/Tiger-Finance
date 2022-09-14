@@ -1,12 +1,15 @@
-.primary-color{
+.primary-color {
   color: #fba01f !important;
 }
-.secondary-color{
-  color:  #fba01f !important;
+
+.secondary-color {
+  color: #fba01f !important;
 }
-.font-robot{
+
+.font-robot {
   font-family: 'Roboto';
 }
+
 .main_head {
   .heading-updated {
     .heading-updated h2 {
@@ -89,7 +92,8 @@ a.nav-link.nav-call-cta {
     top: 5px;
   }
 
-  .list-left-stress li, .list-right-stress li {
+  .list-left-stress li,
+  .list-right-stress li {
     margin-bottom: 15px;
   }
 
@@ -184,7 +188,7 @@ a.nav-link.nav-call-cta {
 
   .looking-for-car-wrap {
     z-index: 99;
-}
+  }
 
   .finance-gradient p {
     font-family: 'Roboto';
