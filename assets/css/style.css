@@ -3112,6 +3112,18 @@ a.nav-link.nav-call-cta {
     flex-wrap: wrap !important;
     gap: 0 !important;
   }
+
+  .looking-for-car .finance-gradient {
+    position: relative;
+    background-color: #702747;
+  }
+
+  .carloan-finance {
+    background-image: url("../images/car-loan.png");
+    background-position: center;
+    background-size: cover;
+    min-height: 350px;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .stress-about .listing-stress-wrapper {
