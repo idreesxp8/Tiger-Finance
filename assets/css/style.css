@@ -2827,8 +2827,8 @@ a.nav-link.nav-call-cta {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 55px;
+  flex-wrap: nowrap;
+  gap: 90px;
 }
 .stress-about .list-left-stress li,
 .stress-about .list-right-stress li {
@@ -2862,11 +2862,6 @@ a.nav-link.nav-call-cta {
 .stress-about .listing-stress-wrapper {
   z-index: 9999;
   position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transform: translateY(50%);
   padding-left: 40px;
 }
 
