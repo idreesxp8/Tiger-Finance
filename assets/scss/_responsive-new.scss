@@ -105,9 +105,19 @@ $breakpoint-tablet: 1200px;
   }
 
   .looking-for-car .finance-gradient {
-    position: relative;
-    background-color: #702747;
-}
+      position: relative;
+      background-color: #702747;
+      padding: 40px 40px 30px 40px;
+      background-image: none;
+  }
+  .looking-for-car .finance-gradient p {
+      font-size: 24px;
+  }
+  .looking-for-car .heading-car-loan-about {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
   .carloan-finance {
     background-image: url('../images/car-loan.png');
     background-position: center;
@@ -116,6 +126,18 @@ $breakpoint-tablet: 1200px;
   }
 }
 @media only screen and (max-width: $breakpoint-tablet) {
+  .looking-for-car .bg-gradient-img {
+    background-image: url("../images/car-loan.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    padding-top: 410px;
+}
+.looking-for-car .finance-gradient {
+  padding: 40px 40px 49px 40px;
+  background-image: none;
+  background-color: #702747;
+}
   .stress-about .listing-stress-wrapper {
     transform: unset;
     padding-left: unset;
@@ -156,5 +178,22 @@ $breakpoint-tablet: 1200px;
   .stress-about .list-stress-about {
     gap: 80px;
     padding-left: 20px;
+  }
+}
+
+
+@media only screen 
+  and (min-device-width: 820px) 
+  and (max-device-width: 1180px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .looking-for-car .col-lg-7 {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+    .looking-for-car .bg-gradient-img {
+      background-position: top;
+      padding-top: 610px;
+      background-size: contain;
   }
 }
