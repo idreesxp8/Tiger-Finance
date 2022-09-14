@@ -62,7 +62,7 @@
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1200px) {
- 
+
   .content_wrapper {
     min-height: 365px;
   }
@@ -126,7 +126,7 @@
     line-height: 65px;
   }
   .right_wrapper_tiger {
-    margin-top: 40px !important;
+    margin-top: 0 !important;
   }
   .left_comp.banner_com {
     bottom: 0px;
@@ -135,7 +135,7 @@
 }
 
 @media (max-width: 1200px) {
-  
+
   .lending_mob .slick-next.slick-arrow {
     position: absolute;
     right: 30%;
@@ -345,7 +345,7 @@
     background-size: contain;
     background-position: bottom;
   }
-  
+
   .expert_img_wrapper {
     width: 100%;
   }
@@ -628,7 +628,7 @@
   .nav-link {
     font-size: 14px;
     padding-left: .2rem !important;
-    
+
   }
   .navbar-nav li {
     margin-left: 0px;
@@ -645,7 +645,7 @@
   .dropdown-menu.show {
     background-color: #621A4B;
     padding: 0px;
-    
+
     li {
         margin-left: 0px;
         .dropdown-item {

@@ -1474,7 +1474,7 @@ footer {
   }
 
   .right_wrapper_tiger {
-    margin-top: 40px !important;
+    margin-top: 0 !important;
   }
 
   .left_comp.banner_com {
@@ -2816,7 +2816,7 @@ a.nav-link.nav-call-cta {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 35px;
+  gap: 55px;
 }
 .stress-about .list-left-stress li,
 .stress-about .list-right-stress li {
@@ -2838,7 +2838,7 @@ a.nav-link.nav-call-cta {
   font-size: 18px;
 }
 .stress-about .bg-stress-about {
-  background-image: url(../images/about-stress.png);
+  background-image: url("../images/about-stress.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -2873,7 +2873,7 @@ a.nav-link.nav-call-cta {
   transform: skewX(14deg);
   left: -52px;
   top: 0;
-  box-shadow: -13px 0px 11px -9px rgba(0, 0, 0, 0.31);
+  box-shadow: -13px 0 11px -9px rgba(0, 0, 0, 0.31);
 }
 
 .looking-for-car .heading-car-loan-about {
@@ -2895,13 +2895,13 @@ a.nav-link.nav-call-cta {
   background-size: cover;
   background-position: center;
   height: 100%;
-  width: 40px;
+  width: 50px;
   position: absolute;
-  right: -30px;
+  right: -50px;
   top: 0;
   background: linear-gradient(90deg, #e86966 6%, #f79925 100%);
   transform: skewx(-5deg);
-  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 94% 0, 56% 100%, 0% 100%);
 }
 .looking-for-car .finance-gradient::after {
   content: "";
@@ -2928,6 +2928,9 @@ a.nav-link.nav-call-cta {
   color: #fff;
   font-size: 18px;
   z-index: 3;
+  max-width: 500px;
+  font-size: 20px;
+  font-weight: lighter;
 }
 .looking-for-car .new-btn .apply_btn {
   padding: 15px 24px;
@@ -3017,7 +3020,7 @@ a.nav-link.nav-call-cta {
 }
 
 .great-loans .img-wrapper {
-  background-image: url(../images/car.jpg);
+  background-image: url("../images/car.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -3025,6 +3028,10 @@ a.nav-link.nav-call-cta {
 }
 .great-loans li {
   margin-bottom: 15px !important;
+}
+
+.who_we_can_help .txt-help {
+  max-width: 400px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -3121,6 +3128,10 @@ a.nav-link.nav-call-cta {
   .great-loans {
     padding: 0 !important;
   }
+
+  .corner-cuts {
+    display: none;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .stress-about .listing-stress-wrapper {
@@ -3200,8 +3211,11 @@ a.nav-link.nav-call-cta {
   height: 202px;
   width: 100%;
   left: -59px;
-  z-index: 1;
+  z-index: 8;
   background-repeat: no-repeat;
+}
+.main_head_new .carousel-index {
+  z-index: 12 !important;
 }
 .main_head_new .slider-corner-cut-2::before {
   content: "";
@@ -3224,6 +3238,29 @@ a.nav-link.nav-call-cta {
   right: -380px;
   z-index: 999;
   background-repeat: no-repeat;
+}
+.main_head_new .carousel-indicators-adj {
+  position: absolute;
+  bottom: 0 !important;
+  z-index: 100;
+}
+.main_head_new .carousel-dot-ind.active {
+  background-color: #62194a !important;
+  height: 18px;
+  border-radius: 62%;
+}
+.main_head_new .carousel-dot-ind,
+.main_head_new .inline-2,
+.main_head_new .inline-3 {
+  background-color: #62194a !important;
+}
+.main_head_new .carousel-dot-ind,
+.main_head_new .inline-2,
+.main_head_new .inline-3 {
+  background-color: #62194a !important;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

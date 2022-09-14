@@ -94,6 +94,9 @@ $breakpoint-tablet: 1200px;
 .great-loans {
     padding: 0 !important;
 }
+  .corner-cuts {
+    display: none;
+  }
 }
 @media only screen and (max-width: $breakpoint-tablet) {
   .stress-about .listing-stress-wrapper {

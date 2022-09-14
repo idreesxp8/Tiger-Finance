@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-  $(window).scroll(function() 
+  $(window).scroll(function()
   {
    if ($(this).scrollTop() > 200)
    {
@@ -77,7 +77,7 @@ $(document).ready(function () {
     ],
   });
 
- 
+
 
   if ($(".brands_slider").length) {
     var brandsSlider = $(".brands_slider");
@@ -120,4 +120,40 @@ $(document).ready(function () {
       });
     }
   }
+
+  $('.slick-slider-banner').slick({
+  dots: true,
+  infinite: false,
+  speed: 300,
+  slidesToShow: 4,
+  slidesToScroll: 4,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
 });
