@@ -2844,6 +2844,9 @@ a.nav-link.nav-call-cta {
   left: -25px;
   top: 5px;
 }
+.stress-about .list-left-stress li, .stress-about .list-right-stress li {
+  margin-bottom: 15px;
+}
 .stress-about .list-left-stress li,
 .stress-about .list-right-stress ul {
   font-family: "Roboto";
@@ -3130,6 +3133,11 @@ a.nav-link.nav-call-cta {
   .corner-cuts {
     display: none;
   }
+
+  .list-stress-about {
+    flex-wrap: wrap !important;
+    gap: 0 !important;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .stress-about .listing-stress-wrapper {
@@ -3139,7 +3147,7 @@ a.nav-link.nav-call-cta {
   }
 
   .stress-about .heading-stress-about {
-    font-size: 45px;
+    font-size: 40px;
     font-family: "Roboto";
   }
 
@@ -3167,6 +3175,11 @@ a.nav-link.nav-call-cta {
 
   .great-loans .img-wrapper {
     background-position: center top;
+  }
+
+  .stress-about .list-stress-about {
+    gap: 80px;
+    padding-left: 20px;
   }
 }
 .navbar-cs-call .nav-call-cta .login_img {
