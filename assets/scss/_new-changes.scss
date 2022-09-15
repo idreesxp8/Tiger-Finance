@@ -283,6 +283,11 @@ a.nav-link.nav-call-cta {
       height: auto;
     }
   }
+  .reverse-arr img {
+    position: absolute;
+    right: -240px;
+    bottom: -85px;
+  }
 }
 
 .great-loan-sm-card {
@@ -477,6 +482,9 @@ button.btn.btn-video {
 .steps_section {
   .bg-breaking-news {
     background-color: #fba01f;
+  }
+  .breaking-new-inner h4 {
+    max-width: 55%;
   }
 }
 

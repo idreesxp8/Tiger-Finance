@@ -137,6 +137,15 @@ $breakpoint-tablet: 1200px;
   .loan-needs {
     background-image: unset;
   }
+
+  .great-loan-card .reverse-arr img {
+    position: absolute !important;
+    right: -250px !important;
+    bottom: -50px !important;
+  }
+  .reverse-arr-card {
+    min-height: 300px;
+  }
 }
 @media only screen and (max-width: $breakpoint-tablet) {
   //   .looking-for-car .bg-gradient-img {

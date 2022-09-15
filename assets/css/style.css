@@ -2789,6 +2789,11 @@ a.nav-link.nav-call-cta {
   width: 60px;
   height: auto;
 }
+.great-loan-card .reverse-arr img {
+  position: absolute;
+  right: -240px;
+  bottom: -85px;
+}
 
 .great-loan-sm-card .great-loan-sm-card {
   min-height: 534px;
@@ -2957,6 +2962,9 @@ button.btn.btn-video {
 .steps_section .bg-breaking-news {
   background-color: #fba01f;
 }
+.steps_section .breaking-new-inner h4 {
+  max-width: 55%;
+}
 
 .card-about-loan {
   transition: 0.3s all ease-in-out;
@@ -3078,6 +3086,14 @@ button.btn.btn-video {
   }
   .loan-needs {
     background-image: unset;
+  }
+  .great-loan-card .reverse-arr img {
+    position: absolute !important;
+    right: -250px !important;
+    bottom: -50px !important;
+  }
+  .reverse-arr-card {
+    min-height: 300px;
   }
 }
 @media only screen and (max-width: 1200px) {
