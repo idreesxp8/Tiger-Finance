@@ -2860,6 +2860,19 @@ a.nav-link.nav-call-cta {
   background-color: #f4f2f3 !important;
 }
 
+button.btn.btn-chat,
+.btn.btn-call {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #006fff;
+}
+
+.btn-chat img {
+  max-width: 18px;
+  filter: invert(26%) sepia(87%) saturate(3109%) hue-rotate(207deg) brightness(103%) contrast(104%);
+}
+
 @media only screen and (max-width: 767px) {
   .tiger_list {
     max-width: 300px;
