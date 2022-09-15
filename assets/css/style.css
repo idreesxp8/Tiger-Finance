@@ -2971,6 +2971,13 @@ button.btn.btn-video {
   cursor: pointer;
 }
 
+.private-loans {
+  background-image: url("../images/bg_main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 @media only screen and (max-width: 767px) {
   .tiger_list {
     max-width: 300px;

@@ -492,5 +492,10 @@ button.btn.btn-video {
   transition: 0.3s all ease-in-out;
   cursor: pointer;
 }
-
+.private-loans {
+  background-image: url("../images/bg_main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 @import "_responsive-new";
