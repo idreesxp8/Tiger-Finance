@@ -1,6 +1,10 @@
 $breakpoint-mobile: 767px;
 $breakpoint-tablet: 1200px;
 @media only screen and (max-width: $breakpoint-mobile) {
+  .tiger_list {
+    max-width: 300px;
+    margin: 0 auto !important;
+  }
   .stress-about .col-tilt::before {
     display: none;
   }
@@ -151,12 +155,6 @@ $breakpoint-tablet: 1200px;
     background-position: center;
   }
 
-  .bg-gradient-img {
-    background-image: url("../images/car-loan.png");
-    background-position: center !important;
-    padding-top: 610px !important;
-    background-size: cover !important;
-  }
   .looking-for-car .finance-gradient {
     padding: 40px 40px 49px 40px;
     background-image: none;
@@ -210,6 +208,8 @@ $breakpoint-tablet: 1200px;
 
   .bg-gradient-img {
     padding-top: unset !important;
+    background-image: unset !important;
+    flex-direction: column-reverse;
   }
   .carloan-finance {
     background-image: url(../images/car-loan.png);
@@ -227,6 +227,9 @@ $breakpoint-tablet: 1200px;
   }
   .great-loan-card {
     min-height: 500px;
+  }
+  .tiger_list {
+    margin: 0 auto !important;
   }
 }
 

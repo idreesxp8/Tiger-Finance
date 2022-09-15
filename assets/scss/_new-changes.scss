@@ -347,4 +347,19 @@ a.nav-link.nav-call-cta {
   background-size: contain;
   background-position: right;
 }
+
+.short-terms-loan {
+  background-color: #f4f2f3;
+}
+
+.updated-changes-guide {
+  .book-img-bg {
+    background-image: url("../images/book.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+  }
+}
 @import "_responsive-new";

@@ -2843,7 +2843,24 @@ a.nav-link.nav-call-cta {
   background-position: right;
 }
 
+.short-terms-loan {
+  background-color: #f4f2f3;
+}
+
+.updated-changes-guide .book-img-bg {
+  background-image: url("../images/book.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
 @media only screen and (max-width: 767px) {
+  .tiger_list {
+    max-width: 300px;
+    margin: 0 auto !important;
+  }
   .stress-about .col-tilt::before {
     display: none;
   }
@@ -2963,12 +2980,6 @@ a.nav-link.nav-call-cta {
   .stress-about .bg-stress-about {
     background-position: center;
   }
-  .bg-gradient-img {
-    background-image: url("../images/car-loan.png");
-    background-position: center !important;
-    padding-top: 610px !important;
-    background-size: cover !important;
-  }
   .looking-for-car .finance-gradient {
     padding: 40px 40px 49px 40px;
     background-image: none;
@@ -3010,6 +3021,8 @@ a.nav-link.nav-call-cta {
   }
   .bg-gradient-img {
     padding-top: unset !important;
+    background-image: unset !important;
+    flex-direction: column-reverse;
   }
   .carloan-finance {
     background-image: url(../images/car-loan.png);
@@ -3027,6 +3040,9 @@ a.nav-link.nav-call-cta {
   }
   .great-loan-card {
     min-height: 500px;
+  }
+  .tiger_list {
+    margin: 0 auto !important;
   }
 }
 @media only screen and (min-device-width: 820px) and (max-device-width: 1180px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
