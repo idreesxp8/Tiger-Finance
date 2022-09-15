@@ -10,6 +10,10 @@
   font-family: "Roboto";
 }
 
+.text-yellow {
+  color: #fba01f;
+}
+
 .main_head {
   .heading-updated {
     .heading-updated h2 {
@@ -26,8 +30,24 @@
       text-transform: capitalize;
     }
   }
+  .arrow-next {
+    img {
+      max-width: 100px;
+      margin: 30px 0;
+      padding: 25px;
+      z-index: 2;
+    }
+  }
 }
 
+span.blur {
+  position: absolute;
+  bottom: 32px;
+  width: 6.3%;
+  height: 56%;
+  filter: blur(26px);
+  z-index: 1;
+}
 a.nav-link.nav-call-cta {
   display: flex;
   flex-direction: column !important;
@@ -429,6 +449,40 @@ button.btn.btn-video {
 
 .learn-more {
   background-color: #f4f2f3;
+}
+
+.banner-form-video div {
+  width: 35% !important;
+  margin: 0 20px;
+}
+
+.color-mix {
+  max-height: 50px;
+  background: linear-gradient(
+    90deg,
+    rgba(65, 62, 134, 1) 6%,
+    rgba(42, 88, 177, 1) 100%
+  ) !important;
+  transition: 0.3s all ease-in-out;
+}
+
+.color-mix:hover {
+  opacity: 0.8;
+}
+
+.video-input {
+  padding: 12px;
+}
+
+.steps_section {
+  .bg-breaking-news {
+    background-color: #fba01f;
+  }
+}
+
+.card-about-loan {
+  transition: 0.3s all ease-in-out;
+  cursor: pointer;
 }
 
 @import "_responsive-new";
