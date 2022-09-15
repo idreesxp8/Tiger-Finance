@@ -2856,6 +2856,10 @@ a.nav-link.nav-call-cta {
   width: 100%;
 }
 
+.updated__loans {
+  background-color: #f4f2f3 !important;
+}
+
 @media only screen and (max-width: 767px) {
   .tiger_list {
     max-width: 300px;
@@ -2913,9 +2917,6 @@ a.nav-link.nav-call-cta {
   }
   .great-loans .col-lg-4 {
     margin-top: 25px;
-  }
-  .great-loan-card {
-    min-height: unset !important;
   }
   .great-loan-sm-card .great-loan ul li {
     font-size: 18px;
@@ -3037,9 +3038,6 @@ a.nav-link.nav-call-cta {
   }
   .loan-needs {
     background-image: unset;
-  }
-  .great-loan-card {
-    min-height: 500px;
   }
   .tiger_list {
     margin: 0 auto !important;
