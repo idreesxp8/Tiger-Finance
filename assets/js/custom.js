@@ -1,16 +1,11 @@
 $(document).ready(function () {
-
-  $(window).scroll(function()
-  {
-   if ($(this).scrollTop() > 200)
-   {
-     console.log("sticky");
-    $('header').addClass("sticky_header");
-   }
-   else
-   {
-    $('header').removeClass("sticky_header");
-   }
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 200) {
+      console.log("sticky");
+      $("header").addClass("sticky_header");
+    } else {
+      $("header").removeClass("sticky_header");
+    }
   });
 
   $(".lending_mob").slick({
@@ -77,8 +72,6 @@ $(document).ready(function () {
     ],
   });
 
-
-
   if ($(".brands_slider").length) {
     var brandsSlider = $(".brands_slider");
 
@@ -91,18 +84,18 @@ $(document).ready(function () {
       items: 3,
       stagePadding: 60,
       margin: 0,
-      responsive:{
-        0:{
-            items:1
+      responsive: {
+        0: {
+          items: 1,
         },
-        600:{
-            stagePadding: 210,
-            items:1
+        600: {
+          stagePadding: 210,
+          items: 1,
         },
-        1000:{
+        1000: {
           stagePadding: 0,
-            items:3
-        }
+          items: 3,
+        },
       },
     });
 
@@ -121,39 +114,39 @@ $(document).ready(function () {
     }
   }
 
-  $('.slick-slider-banner').slick({
-  dots: true,
-  infinite: false,
-  speed: 300,
-  slidesToShow: 4,
-  slidesToScroll: 4,
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        dots: true
-      }
-    },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        slidesToScroll: 2
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        slidesToScroll: 1
-      }
-    }
-    // You can unslick at a given breakpoint now by adding:
-    // settings: "unslick"
-    // instead of a settings object
-  ]
-});
+  $(".slick-slider-banner").slick({
+    dots: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ],
+  });
 });

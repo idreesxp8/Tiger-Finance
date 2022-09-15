@@ -68,7 +68,7 @@ $breakpoint-tablet: 1200px;
   }
 
   .great-loan-card {
-    min-height: 450px;
+    min-height: unset !important;
   }
 
   .great-loan-sm-card .great-loan ul li {
@@ -126,6 +126,16 @@ $breakpoint-tablet: 1200px;
   }
   .stress-about .bg-stress-about {
     background-position: center;
+  }
+  .loan-opt-inner p {
+    width: 100% !important;
+  }
+
+  .loan-needs .row {
+    flex-direction: column-reverse;
+  }
+  .loan-needs {
+    background-image: unset;
   }
 }
 @media only screen and (max-width: $breakpoint-tablet) {
@@ -208,6 +218,15 @@ $breakpoint-tablet: 1200px;
     background-size: cover;
     width: 100%;
     height: 50vh !important;
+  }
+  .loan-needs .row {
+    flex-direction: column-reverse;
+  }
+  .loan-needs {
+    background-image: unset;
+  }
+  .great-loan-card {
+    min-height: 500px;
   }
 }
 
