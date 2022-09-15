@@ -2873,6 +2873,49 @@ button.btn.btn-chat,
   filter: invert(26%) sepia(87%) saturate(3109%) hue-rotate(207deg) brightness(103%) contrast(104%);
 }
 
+.z-index {
+  z-index: 12;
+}
+
+.form-banner-submit {
+  background: linear-gradient(90deg, rgb(251, 160, 31) 0%, rgb(240, 114, 111) 100%);
+  width: 100%;
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+  font-family: "roboto";
+  font-weight: bold;
+  transition: 250ms all ease-in;
+}
+
+.form-banner-submit:hover {
+  opacity: 0.8;
+  color: #fff;
+}
+
+.tiger-listing p {
+  line-height: 20px;
+}
+
+button.btn.btn-video {
+  background-image: linear-gradient(90deg, rgb(42, 88, 177) 6%, rgb(65, 62, 134) 100%);
+  display: flex;
+  align-items: center;
+  padding: 15px 45px;
+  color: #fff;
+  gap: 10px;
+  font-size: 25px;
+  transition: 0.3s all ease-in;
+}
+
+.btn.btn-video:hover {
+  opacity: 0.8;
+}
+
+.learn-more {
+  background-color: #f4f2f3;
+}
+
 @media only screen and (max-width: 767px) {
   .tiger_list {
     max-width: 300px;
