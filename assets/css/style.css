@@ -3214,8 +3214,19 @@ button.btn.btn-video {
   .have-a-question-mobile {
     display: block;
   }
+  .free-guide .form-control-custom {
+    width: 100% !important;
+  }
 }
 @media only screen and (max-width: 1200px) {
+  .have-a-question {
+    visibility: hidden;
+    position: unset;
+    display: none !important;
+  }
+  .free-guide .form-control-custom {
+    width: 100% !important;
+  }
   .banner-form-video div {
     width: 100% !important;
   }
