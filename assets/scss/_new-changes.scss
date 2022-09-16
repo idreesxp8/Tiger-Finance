@@ -298,8 +298,8 @@ a.nav-link.nav-call-cta {
   }
   .reverse-arr img {
     position: absolute;
-    right: -240px;
-    bottom: -85px;
+    right: -290px;
+    bottom: -210px;
   }
 }
 
@@ -384,6 +384,10 @@ a.nav-link.nav-call-cta {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
+  img {
+    max-height: 550px;
+    object-fit: cover;
+  }
 }
 
 .short-terms-loan {

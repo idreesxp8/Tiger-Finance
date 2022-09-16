@@ -2807,8 +2807,8 @@ a.nav-link.nav-call-cta {
 }
 .great-loan-card .reverse-arr img {
   position: absolute;
-  right: -240px;
-  bottom: -85px;
+  right: -290px;
+  bottom: -210px;
 }
 
 .great-loan-sm-card .great-loan-sm-card {
@@ -2881,6 +2881,11 @@ a.nav-link.nav-call-cta {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right;
+}
+.loan-needs img {
+  max-height: 550px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .short-terms-loan {
@@ -3191,8 +3196,8 @@ button.btn.btn-video {
   }
   .great-loan-card .reverse-arr img {
     position: absolute !important;
-    right: -250px !important;
-    bottom: -50px !important;
+    right: -280px !important;
+    bottom: -93px !important;
   }
   .reverse-arr-card {
     min-height: 300px;
@@ -3306,6 +3311,14 @@ button.btn.btn-video {
   }
   .what-you-learn h3 {
     font-size: 28px !important;
+  }
+  .great-loan-card .reverse-arr img {
+    position: absolute;
+    right: -590px;
+    bottom: -120px;
+  }
+  .great-loan-card.reverse-arr-card {
+    min-height: 380px;
   }
 }
 @media only screen and (min-device-width: 820px) and (max-device-width: 1180px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {

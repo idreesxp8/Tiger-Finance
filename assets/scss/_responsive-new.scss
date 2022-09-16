@@ -155,8 +155,8 @@ $breakpoint-tablet: 1200px;
 
   .great-loan-card .reverse-arr img {
     position: absolute !important;
-    right: -250px !important;
-    bottom: -50px !important;
+    right: -280px !important;
+    bottom: -93px !important;
   }
   .reverse-arr-card {
     min-height: 300px;
@@ -284,6 +284,14 @@ $breakpoint-tablet: 1200px;
   }
   .what-you-learn h3 {
     font-size: 28px !important;
+  }
+  .great-loan-card .reverse-arr img {
+    position: absolute;
+    right: -590px;
+    bottom: -120px;
+  }
+  .great-loan-card.reverse-arr-card {
+    min-height: 380px;
   }
 }
 
