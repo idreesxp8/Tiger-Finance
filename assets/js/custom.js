@@ -163,4 +163,10 @@ $(document).ready(function () {
     $input.change();
     return false;
   });
+  $('input[type="range"]').on("mousemove touchmove", function () {
+    $val = $(this).val();
+    $thumb = $(this).siblings(".thumb");
+
+    $thumb.css("background-position-x", $val + "%");
+  });
 });

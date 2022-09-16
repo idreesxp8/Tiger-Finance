@@ -6,6 +6,14 @@
   color: #62194a !important;
 }
 
+.bg-yellow {
+  background-color: #fba01f;
+}
+
+.bg-purp {
+  background-color: #62194a;
+}
+
 .font-robot {
   font-family: "Roboto";
 }
@@ -534,6 +542,32 @@ button.btn.btn-video {
       width: 37%;
     }
   }
+
+  .bg-checkout {
+    background-color: #f0f5f7 !important;
+    .btn-apply {
+      width: 60%;
+      height: 50px;
+    }
+  }
 }
 
+.range-calc-inner {
+  input[type="range"]::-webkit-slider-thumb {
+    background: #fba01f;
+  }
+  input[type="range"]::-moz-range-thumb {
+    background: #fba01f;
+  }
+  input[type="range"]::-ms-thumb {
+    background: #fba01f;
+  }
+  input[type="range"] + .thumb.active {
+    background: linear-gradient(135deg, #007e33, #ffbb33, #cc0000);
+    background-size: 480px;
+  }
+}
+.our_expert {
+  background-color: #f4f2f3;
+}
 @import "_responsive-new";
