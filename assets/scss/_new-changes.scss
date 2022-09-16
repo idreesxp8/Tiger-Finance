@@ -498,4 +498,42 @@ button.btn.btn-video {
   background-size: cover;
   background-position: center;
 }
+
+.borrow-pw {
+  background-color: #f6f8fc;
+  .calculator-tf {
+    border-bottom: 5px dotted rgba(0, 0, 0, 0.171);
+    input {
+      padding: 8px 10px;
+      border-color: #000;
+      border-width: 1px;
+    }
+    .minus,
+    .plus {
+      width: 35px;
+      height: 39.33px;
+      background: #eff4f6;
+      border-radius: 4px;
+      padding: 8px 5px 8px 5px;
+      border: 1px solid #ddd;
+      display: inline-block;
+      vertical-align: middle;
+      text-align: center;
+    }
+    .inner-counter-calc {
+      input {
+        padding: 8px 10px;
+        border: none;
+        width: 15%;
+      }
+      input:focus {
+        border: none;
+      }
+    }
+    select {
+      width: 37%;
+    }
+  }
+}
+
 @import "_responsive-new";

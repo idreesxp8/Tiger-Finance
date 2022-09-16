@@ -2978,6 +2978,41 @@ button.btn.btn-video {
   background-position: center;
 }
 
+.borrow-pw {
+  background-color: #f6f8fc;
+}
+.borrow-pw .calculator-tf {
+  border-bottom: 5px dotted rgba(0, 0, 0, 0.171);
+}
+.borrow-pw .calculator-tf input {
+  padding: 8px 10px;
+  border-color: #000;
+  border-width: 1px;
+}
+.borrow-pw .calculator-tf .minus,
+.borrow-pw .calculator-tf .plus {
+  width: 35px;
+  height: 39.33px;
+  background: #eff4f6;
+  border-radius: 4px;
+  padding: 8px 5px 8px 5px;
+  border: 1px solid #ddd;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.borrow-pw .calculator-tf .inner-counter-calc input {
+  padding: 8px 10px;
+  border: none;
+  width: 15%;
+}
+.borrow-pw .calculator-tf .inner-counter-calc input:focus {
+  border: none;
+}
+.borrow-pw .calculator-tf select {
+  width: 37%;
+}
+
 @media only screen and (max-width: 767px) {
   .tiger_list {
     max-width: 300px;
