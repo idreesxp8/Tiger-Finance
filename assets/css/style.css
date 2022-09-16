@@ -3031,6 +3031,10 @@ button.btn.btn-video {
   height: 50px;
 }
 
+.have-a-question-mobile {
+  display: none;
+}
+
 .range-calc-inner input[type=range]:focus {
   outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
 }
@@ -3207,6 +3211,9 @@ button.btn.btn-video {
 .apply_btn span {
     font-size: 18px !important;
   }
+  .have-a-question-mobile {
+    display: block;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .banner-form-video div {
@@ -3288,10 +3295,6 @@ button.btn.btn-video {
   }
   .what-you-learn h3 {
     font-size: 28px !important;
-  }
-  .main_head_new h2,
-.main_head_new span {
-    font-size: 55px;
   }
 }
 @media only screen and (min-device-width: 820px) and (max-device-width: 1180px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {

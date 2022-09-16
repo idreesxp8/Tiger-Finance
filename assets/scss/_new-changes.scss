@@ -553,6 +553,10 @@ button.btn.btn-video {
   }
 }
 
+.have-a-question-mobile {
+  display: none;
+}
+
 .range-calc-inner {
   input[type="range"]:focus {
     outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */

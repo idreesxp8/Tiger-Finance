@@ -175,6 +175,9 @@ $breakpoint-tablet: 1200px;
   .apply_btn span {
     font-size: 18px !important;
   }
+  .have-a-question-mobile {
+    display: block;
+  }
 }
 @media only screen and (max-width: $breakpoint-tablet) {
   .banner-form-video div {
