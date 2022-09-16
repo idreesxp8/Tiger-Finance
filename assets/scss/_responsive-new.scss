@@ -3,10 +3,25 @@ $breakpoint-tablet: 1200px;
 @media only screen and (max-width: $breakpoint-mobile) {
   .tiger_list {
     max-width: 300px;
-    margin: 0 auto !important;
   }
+
+  .what-you-learn h3 {
+    font-size: 28px !important;
+  }
+
   .stress-about .col-tilt::before {
     display: none;
+  }
+  .what-you-learn .row {
+    flex-direction: column-reverse;
+  }
+  .reverse-col-nd {
+    flex-direction: unset;
+  }
+
+  .reverse-col-nd .row {
+    flex-direction: column;
+    padding: 20px 0;
   }
 
   .stress-about .listing-stress-wrapper {
@@ -158,6 +173,9 @@ $breakpoint-tablet: 1200px;
   }
 }
 @media only screen and (max-width: $breakpoint-tablet) {
+  .banner-form-video div {
+    width: 100% !important;
+  }
   .stress-about .bg-stress-about {
     background-position: center;
   }
@@ -233,8 +251,25 @@ $breakpoint-tablet: 1200px;
     background-image: unset;
   }
 
-  .tiger_list {
-    margin: 0 auto !important;
+  .banner-form-video {
+    display: block !important;
+  }
+  .banner-form-video div {
+    width: 100% !important;
+  }
+  .main_head_new form {
+    min-height: unset !important;
+    padding: 0 !important;
+  }
+  .borrow-pw .bg-checkout .btn-apply {
+    width: 90%;
+  }
+  .what-you-learn h3 {
+    font-size: 28px !important;
+  }
+  .main_head_new h2,
+  .main_head_new span {
+    font-size: 55px !important;
   }
 }
 

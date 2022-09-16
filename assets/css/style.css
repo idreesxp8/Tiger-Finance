@@ -3060,10 +3060,22 @@ button.btn.btn-video {
 @media only screen and (max-width: 767px) {
   .tiger_list {
     max-width: 300px;
-    margin: 0 auto !important;
+  }
+  .what-you-learn h3 {
+    font-size: 28px !important;
   }
   .stress-about .col-tilt::before {
     display: none;
+  }
+  .what-you-learn .row {
+    flex-direction: column-reverse;
+  }
+  .reverse-col-nd {
+    flex-direction: unset;
+  }
+  .reverse-col-nd .row {
+    flex-direction: column;
+    padding: 20px 0;
   }
   .stress-about .listing-stress-wrapper {
     z-index: 9999;
@@ -3193,6 +3205,9 @@ button.btn.btn-video {
   }
 }
 @media only screen and (max-width: 1200px) {
+  .banner-form-video div {
+    width: 100% !important;
+  }
   .stress-about .bg-stress-about {
     background-position: center;
   }
@@ -3254,8 +3269,25 @@ button.btn.btn-video {
   .loan-needs {
     background-image: unset;
   }
-  .tiger_list {
-    margin: 0 auto !important;
+  .banner-form-video {
+    display: block !important;
+  }
+  .banner-form-video div {
+    width: 100% !important;
+  }
+  .main_head_new form {
+    min-height: unset !important;
+    padding: 0 !important;
+  }
+  .borrow-pw .bg-checkout .btn-apply {
+    width: 90%;
+  }
+  .what-you-learn h3 {
+    font-size: 28px !important;
+  }
+  .main_head_new h2,
+.main_head_new span {
+    font-size: 55px !important;
   }
 }
 @media only screen and (min-device-width: 820px) and (max-device-width: 1180px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
