@@ -3203,6 +3203,10 @@ button.btn.btn-video {
   .banner-form-video div {
     width: 100% !important;
   }
+  .consult_btn span,
+.apply_btn span {
+    font-size: 18px !important;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .banner-form-video div {
@@ -3287,7 +3291,7 @@ button.btn.btn-video {
   }
   .main_head_new h2,
 .main_head_new span {
-    font-size: 55px !important;
+    font-size: 55px;
   }
 }
 @media only screen and (min-device-width: 820px) and (max-device-width: 1180px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
