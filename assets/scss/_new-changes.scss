@@ -39,6 +39,8 @@
     }
   }
   .arrow-next {
+    max-width: 8%;
+    margin: auto;
     img {
       max-width: 100px;
       margin: 30px 0;
@@ -260,6 +262,9 @@ a.nav-link.nav-call-cta {
   //   min-height: 400px;
   //   z-index: -2;
   // }
+}
+.card-about-loan {
+  box-shadow: -2px -1px 18px 0px rgba(0, 0, 0, 0.53) !important;
 }
 
 .great-loan-card {
@@ -496,10 +501,6 @@ button.btn.btn-video {
   }
 }
 
-.card-about-loan {
-  transition: 0.3s all ease-in-out;
-  cursor: pointer;
-}
 .private-loans {
   background-image: url("../images/bg_main.jpg");
   background-repeat: no-repeat;
@@ -553,6 +554,9 @@ button.btn.btn-video {
 }
 
 .range-calc-inner {
+  input[type="range"]:focus {
+    outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+  }
   input[type="range"]::-webkit-slider-thumb {
     background: #fba01f;
   }
@@ -565,6 +569,11 @@ button.btn.btn-video {
   input[type="range"] + .thumb.active {
     background: linear-gradient(135deg, #007e33, #ffbb33, #cc0000);
     background-size: 480px;
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #fff !important;
+    border: 2px solid #fba01f;
   }
 }
 .our_expert {
