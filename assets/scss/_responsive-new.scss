@@ -146,6 +146,10 @@ $breakpoint-tablet: 1200px;
   .reverse-arr-card {
     min-height: 300px;
   }
+  .left_btn_wrapper .apply_btn {
+    font-size: 16px;
+    width: 100%;
+  }
 }
 @media only screen and (max-width: $breakpoint-tablet) {
   //   .looking-for-car .bg-gradient-img {
