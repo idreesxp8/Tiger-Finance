@@ -3222,6 +3222,12 @@ button.btn.btn-video {
   .free-guide .form-control-custom {
     width: 100% !important;
   }
+  .private-loan-form {
+    width: 100% !important;
+  }
+  .private-loan-form img {
+    width: 75% !important;
+  }
 }
 @media only screen and (max-width: 1200px) {
   .have-a-question {
@@ -3319,6 +3325,15 @@ button.btn.btn-video {
   }
   .great-loan-card.reverse-arr-card {
     min-height: 380px;
+  }
+  .private-loan-form {
+    width: 100% !important;
+  }
+  .private-loan-form img {
+    width: 75% !important;
+  }
+  .private-loans-inner img {
+    width: 75% !important;
   }
 }
 @media only screen and (min-device-width: 820px) and (max-device-width: 1180px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {

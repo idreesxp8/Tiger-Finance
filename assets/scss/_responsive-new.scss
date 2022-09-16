@@ -181,6 +181,12 @@ $breakpoint-tablet: 1200px;
   .free-guide .form-control-custom {
     width: 100% !important;
   }
+  .private-loan-form {
+    width: 100% !important;
+    img {
+      width: 75% !important;
+    }
+  }
 }
 @media only screen and (max-width: $breakpoint-tablet) {
   .have-a-question {
@@ -292,6 +298,17 @@ $breakpoint-tablet: 1200px;
   }
   .great-loan-card.reverse-arr-card {
     min-height: 380px;
+  }
+  .private-loan-form {
+    width: 100% !important;
+    img {
+      width: 75% !important;
+    }
+  }
+  .private-loans-inner {
+    img {
+      width: 75% !important;
+    }
   }
 }
 
